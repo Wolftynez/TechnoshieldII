@@ -1,0 +1,30 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2020.12.27943
+
+# File Generated:     Mar 16 2021 15:18:59
+
+# Family & Device:    iCE5LP1K
+
+# Package:            SG48
+
+# ##############################################################################
+
+###IOSet List 14
+set_io Led_RGB_o[0] 41
+set_io Led_o[2] 20
+set_io SDA_io 9
+set_io but_i[0] 25
+set_io Led_RGB_o[1] 40
+set_io Led_o[3] 21
+set_io but_i[1] 28
+set_io Led_RGB_o[2] 39
+set_io Led_o[0] 18
+set_io Led_o[4] 23
+set_io SCL_io 46
+set_io but_i[2] 26
+set_io Led_o[1] 19
+set_io but_i[3] 31
+

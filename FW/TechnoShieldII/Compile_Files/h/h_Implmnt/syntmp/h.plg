@@ -1,0 +1,12 @@
+@P:  Worst Slack : -1.842
+@P:  System - Estimated Frequency : 81.4 MHz
+@P:  System - Requested Frequency : 95.8 MHz
+@P:  System - Estimated Period : 12.280
+@P:  System - Requested Period : 10.438
+@P:  System - Slack : -1.842
+@P: Technoshield_top Part : ice5lp1ksg48
+@P: Technoshield_top I/O primitives : 14
+@P: Technoshield_top I/O Register bits : 0
+@P: Technoshield_top Register bits (Non I/O) : 250 (25%)
+@P: Technoshield_top Total Luts : 333 (33%)
+@P:  CPU Time : 0h:00m:04s

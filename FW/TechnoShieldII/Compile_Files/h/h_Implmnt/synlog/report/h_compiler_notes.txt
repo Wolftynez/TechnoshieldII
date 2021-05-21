@@ -1,0 +1,18 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":15:7:15:22|Top entity is set to Technoshield_top.
+@N: CD630 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":15:7:15:22|Synthesizing work.technoshield_top.behavioral.
+@N: CD630 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd":3592:10:3592:17|Synthesizing sb_ice40_components_syn.sb_io_od.syn_black_box.
+@N: CD630 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd":3517:11:3517:18|Synthesizing sb_ice40_components_syn.sb_hfosc.syn_black_box.
+@N: CD630 :"D:\Temp\TechnoShieldII\top\reg_component.vhd":12:7:12:19|Synthesizing work.reg_component.behavioral.
+@N: CD364 :"D:\Temp\TechnoShieldII\top\reg_component.vhd":56:5:56:15|Removing redundant assignment.
+@N: CD630 :"D:\Temp\TechnoShieldII\top\stack.vhd":12:7:12:11|Synthesizing work.stack.behavioral.
+@N: CD630 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":12:7:12:16|Synthesizing work.warper_i2c.behavioral.
+@N: CD231 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":82:13:82:14|Using onehot encoding for type etat_t. For example, enumeration init_e is mapped to "10000000000000000".
+@N: CD630 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":28:11:28:16|Synthesizing work.sb_i2c.syn_black_box.
+@N: CL201 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":185:2:185:3|Trying to extract state machine for register etat_s.
+@N|Running in 64-bit mode
+@N: NF107 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":15:7:15:22|Selected library: work cell: Technoshield_top view behavioral as top level
+@N: NF107 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":15:7:15:22|Selected library: work cell: Technoshield_top view behavioral as top level
+

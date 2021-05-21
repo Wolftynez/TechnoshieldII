@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09L+ice40
+#--  Project file F:\Temp\TechnoShieldII\Compile_Files\h\h_syn.prd
+#--  Written on Fri Feb 19 21:21:44 2021
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

@@ -1,0 +1,4 @@
+@E: CD326 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":204:1:204:3|Port outputclk of entity sb_ice40_components_syn.sb_io_od is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E: CD326 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":220:1:220:3|Port outputclk of entity sb_ice40_components_syn.sb_io_od is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E: CD326 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":236:1:236:3|Port outputclk of entity sb_ice40_components_syn.sb_io_od is unconnected. If a port needs to remain unconnected, use the keyword open.
+

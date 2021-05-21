@@ -1,0 +1,886 @@
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: WOLFRIVERLAPTOP
+
+# Tue Mar 16 15:13:08 2021
+
+#Implementation: h_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":15:7:15:22|Top entity is set to Technoshield_top.
+File D:\Temp\TechnoShieldII\top\I2C_Warper.vhd changed - recompiling
+File D:\Temp\TechnoShieldII\top\Technoshield_top.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\Temp\TechnoShieldII\top\Technoshield_top.vhd changed - recompiling
+@N: CD630 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":15:7:15:22|Synthesizing work.technoshield_top.behavioral.
+@N: CD630 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd":3592:10:3592:17|Synthesizing sb_ice40_components_syn.sb_io_od.syn_black_box.
+Post processing for sb_ice40_components_syn.sb_io_od.syn_black_box
+@N: CD630 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd":3517:11:3517:18|Synthesizing sb_ice40_components_syn.sb_hfosc.syn_black_box.
+Post processing for sb_ice40_components_syn.sb_hfosc.syn_black_box
+@N: CD630 :"D:\Temp\TechnoShieldII\top\reg_component.vhd":12:7:12:19|Synthesizing work.reg_component.behavioral.
+@N: CD364 :"D:\Temp\TechnoShieldII\top\reg_component.vhd":56:5:56:15|Removing redundant assignment.
+@W: CG296 :"D:\Temp\TechnoShieldII\top\reg_component.vhd":61:2:61:8|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Temp\TechnoShieldII\top\reg_component.vhd":66:16:66:23|Referenced variable led_io_o is not in sensitivity list.
+@W: CG290 :"D:\Temp\TechnoShieldII\top\reg_component.vhd":64:16:64:26|Referenced variable led_blink_s is not in sensitivity list.
+Post processing for work.reg_component.behavioral
+@N: CD630 :"D:\Temp\TechnoShieldII\top\stack.vhd":12:7:12:11|Synthesizing work.stack.behavioral.
+Post processing for work.stack.behavioral
+@N: CD630 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":12:7:12:16|Synthesizing work.warper_i2c.behavioral.
+@N: CD231 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":82:13:82:14|Using onehot encoding for type etat_t. For example, enumeration init_e is mapped to "10000000000000000".
+@W: CD280 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":28:11:28:16|Unbound component SB_I2C mapped to black box
+@N: CD630 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":28:11:28:16|Synthesizing work.sb_i2c.syn_black_box.
+Post processing for work.sb_i2c.syn_black_box
+@W: CG296 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":283:1:283:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":411:19:411:28|Referenced variable data_out_s is not in sensitivity list.
+@W: CG290 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":440:16:440:26|Referenced variable data_in_i2c is not in sensitivity list.
+Post processing for work.warper_i2c.behavioral
+@W: CL117 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":95:51:95:55|Latch generated from process for signal I2C_is_read; possible missing assignment in an if or case statement.
+Post processing for work.technoshield_top.behavioral
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":253:1:253:3|Input dout1 of instance OD2 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":253:1:253:3|Input clockenable of instance OD2 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":253:1:253:3|Input inputclk of instance OD2 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":253:1:253:3|Input outputclk of instance OD2 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":231:1:231:3|Input dout1 of instance OD1 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":231:1:231:3|Input clockenable of instance OD1 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":231:1:231:3|Input inputclk of instance OD1 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":231:1:231:3|Input outputclk of instance OD1 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":209:1:209:3|Input dout1 of instance OD0 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":209:1:209:3|Input clockenable of instance OD0 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":209:1:209:3|Input inputclk of instance OD0 is floating
+@W: CL167 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":209:1:209:3|Input outputclk of instance OD0 is floating
+@N: CL201 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":185:2:185:3|Trying to extract state machine for register etat_s.
+Extracted state machine for register etat_s
+State machine has 17 reachable states with original encodings of:
+   00000000000000001
+   00000000000000010
+   00000000000000100
+   00000000000001000
+   00000000000010000
+   00000000000100000
+   00000000001000000
+   00000000010000000
+   00000000100000000
+   00000001000000000
+   00000010000000000
+   00000100000000000
+   00001000000000000
+   00010000000000000
+   00100000000000000
+   01000000000000000
+   10000000000000000
+@W: CL249 :"D:\Temp\TechnoShieldII\top\I2C_Warper.vhd":185:2:185:3|Initial value is not supported on state machine etat_s
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Mar 16 15:13:08 2021
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":15:7:15:22|Selected library: work cell: Technoshield_top view behavioral as top level
+@N: NF107 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":15:7:15:22|Selected library: work cell: Technoshield_top view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Mar 16 15:13:09 2021
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Mar 16 15:13:09 2021
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synwork\h_comp.srs changed - recompiling
+@N: NF107 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":15:7:15:22|Selected library: work cell: Technoshield_top view behavioral as top level
+@N: NF107 :"D:\Temp\TechnoShieldII\top\Technoshield_top.vhd":15:7:15:22|Selected library: work cell: Technoshield_top view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Mar 16 15:13:10 2021
+
+###########################################################]
+Pre-mapping Report
+
+# Tue Mar 16 15:13:10 2021
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h_scck.rpt 
+Printing clock  summary report in "D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+@W: FX532 :"d:\temp\technoshieldii\top\i2c_warper.vhd":107:0:107:7|Port count of user-instantiated instance I2Cinst0 does not match vendor primitive SB_I2C.
+@W: FX534 :"d:\temp\technoshieldii\top\i2c_warper.vhd":107:0:107:7|Add output port I2CWKUP for instance I2Cinst0 to match vendor primitive SB_I2C.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist Technoshield_top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                   Requested     Requested     Clock                                                  Clock                     Clock
+Clock                                   Frequency     Period        Type                                                   Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                  1.0 MHz       1000.000      system                                                 system_clkgroup           0    
+Technoshield_top|clk_inferred_clock     12.0 MHz      83.320        inferred                                               Autoconstr_clkgroup_0     244  
+Warper_i2c|etat_s_derived_clock[3]      50.0 MHz      19.998        derived (from Technoshield_top|clk_inferred_clock)     Autoconstr_clkgroup_0     1    
+==========================================================================================================================================================
+
+@W: MT529 :"d:\temp\technoshieldii\top\stack.vhd":43:3:43:4|Found inferred clock Technoshield_top|clk_inferred_clock which controls 244 sequential elements including stack0.Data_out_I2C_o[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Encoding state machine etat_s[0:16] (in view: work.Warper_i2c(behavioral))
+original code -> new code
+   00000000000000001 -> 00000
+   00000000000000010 -> 00001
+   00000000000000100 -> 00010
+   00000000000001000 -> 00011
+   00000000000010000 -> 00100
+   00000000000100000 -> 00101
+   00000000001000000 -> 00110
+   00000000010000000 -> 00111
+   00000000100000000 -> 01000
+   00000001000000000 -> 01001
+   00000010000000000 -> 01010
+   00000100000000000 -> 01011
+   00001000000000000 -> 01100
+   00010000000000000 -> 01101
+   00100000000000000 -> 01110
+   01000000000000000 -> 01111
+   10000000000000000 -> 10000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 16 15:13:11 2021
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Mar 16 15:13:11 2021
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":50:3:50:4|User-specified initial value defined for instance reg_component0.COUNTER[23:0] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.IO_register[0:31] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":50:3:50:4|User-specified initial value defined for instance reg_component0.Led_Blink_s is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[127] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[126] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[125] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[124] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[123] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[122] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[121] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[120] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[119] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[118] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[117] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[116] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[115] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[114] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[113] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[112] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[111] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[110] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[109] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[108] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[107] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[106] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[105] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[104] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[103] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[102] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[101] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[100] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[99] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[98] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[97] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[96] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[95] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[94] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[93] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[92] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[91] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[90] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[89] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[88] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[87] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[86] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[85] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[84] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[83] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[82] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[81] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[80] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[79] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[78] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[77] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[76] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[75] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[74] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[73] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[72] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[71] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[70] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[69] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[68] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[67] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[66] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[65] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[64] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[63] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[62] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[61] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[60] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[59] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[58] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[57] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[56] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[55] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[54] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[53] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[52] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[51] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[50] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[49] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[48] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[47] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[46] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[45] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[44] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[43] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[42] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[41] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[40] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[39] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[38] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[37] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[36] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[35] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[34] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[33] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[32] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[31] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[30] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[29] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[28] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[27] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[26] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[25] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[24] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[23] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[22] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[21] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[20] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[19] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[18] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[17] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[16] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[15] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[14] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[13] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[12] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[11] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[10] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[9] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[8] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[7] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[6] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[5] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[4] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[3] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[2] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[1] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.High_depth_reg[0] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\reg_component.vhd":72:3:72:4|User-specified initial value defined for instance reg_component0.Led_io_o is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\i2c_warper.vhd":95:51:95:55|User-specified initial value defined for instance Warper0.I2C_is_read is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\stack.vhd":43:3:43:4|User-specified initial value defined for instance stack0.Data_LSB[7:0] is being ignored. 
+@W: FX1039 :"d:\temp\technoshieldii\top\stack.vhd":43:3:43:4|User-specified initial value defined for instance stack0.isBusy is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Encoding state machine etat_s[0:16] (in view: work.Warper_i2c(behavioral))
+original code -> new code
+   00000000000000001 -> 00000
+   00000000000000010 -> 00001
+   00000000000000100 -> 00010
+   00000000000001000 -> 00011
+   00000000000010000 -> 00100
+   00000000000100000 -> 00101
+   00000000001000000 -> 00110
+   00000000010000000 -> 00111
+   00000000100000000 -> 01000
+   00000001000000000 -> 01001
+   00000010000000000 -> 01010
+   00000100000000000 -> 01011
+   00001000000000000 -> 01100
+   00010000000000000 -> 01101
+   00100000000000000 -> 01110
+   01000000000000000 -> 01111
+   10000000000000000 -> 10000
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 138MB)
+
+@N: BN362 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Removing sequential instance Warper0.etat_s[1] (in view: work.Technoshield_top(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Removing sequential instance Warper0.etat_s[0] (in view: work.Technoshield_top(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Removing sequential instance Warper0.etat_s[3] (in view: work.Technoshield_top(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Removing sequential instance Warper0.etat_s[2] (in view: work.Technoshield_top(behavioral)) because it does not drive other instances.
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 138MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 138MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 138MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 138MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 138MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 138MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 139MB peak: 142MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -3.26ns		 368 /       236
+   2		0h:00m:02s		    -3.26ns		 316 /       236
+   3		0h:00m:02s		    -3.26ns		 315 /       236
+@N: FX271 :"d:\temp\technoshieldii\top\reg_component.vhd":51:7:51:25|Replicating instance reg_component0.counter8lto23_0 (in view: work.Technoshield_top(behavioral)) with 25 loads 1 time to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\stack.vhd":43:3:43:4|Replicating instance stack0.Data_out_I2C_o[6] (in view: work.Technoshield_top(behavioral)) with 61 loads 3 times to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\stack.vhd":43:3:43:4|Replicating instance stack0.Data_out_I2C_o[5] (in view: work.Technoshield_top(behavioral)) with 101 loads 3 times to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Replicating instance Warper0.etat_s_0[2] (in view: work.Technoshield_top(behavioral)) with 21 loads 2 times to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Replicating instance Warper0.etat_s_0[3] (in view: work.Technoshield_top(behavioral)) with 27 loads 2 times to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Replicating instance Warper0.etat_s_0[1] (in view: work.Technoshield_top(behavioral)) with 22 loads 2 times to improve timing.
+Timing driven replication report
+Added 12 Registers via timing driven replication
+Added 9 LUTs via timing driven replication
+
+   4		0h:00m:03s		    -1.21ns		 338 /       248
+   5		0h:00m:03s		    -1.21ns		 338 /       248
+@N: FX271 :"d:\temp\technoshieldii\top\stack.vhd":43:3:43:4|Replicating instance stack0.Data_out_I2C_o_fast[5] (in view: work.Technoshield_top(behavioral)) with 19 loads 2 times to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+
+   6		0h:00m:03s		    -1.21ns		 338 /       250
+@N: FX1017 :|SB_GB inserted on the net N_90_mux_i.
+@N: FX1017 :|SB_GB inserted on the net reg_component0.counter8lto23_0_iso.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 146MB peak: 147MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 146MB peak: 147MB)
+
+@N: MT611 :|Automatically generated clock Technoshield_top|clk_inferred_clock is not used and is being removed
+@N: MT617 :|Automatically generated clock Warper_i2c|etat_s_derived_clock[3] has lost its master clock Technoshield_top|clk_inferred_clock and is being removed
+@N: MT611 :|Automatically generated clock Warper_i2c|etat_s_derived_clock[3] is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 251 clock pin(s) of sequential element(s)
+0 instances converted, 251 sequential instances remain driven by gated/generated clocks
+
+===================================================================================================== Gated/Generated Clocks =====================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance             Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       HFOSCinst0          SB_HFOSC               251        Warper0.etat_s_0_1_rep1     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+==================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 119MB peak: 147MB)
+
+Writing Analyst data base D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synwork\h_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 145MB peak: 147MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 146MB peak: 148MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 145MB peak: 148MB)
+
+@W: MT246 :"d:\temp\technoshieldii\top\technoshield_top.vhd":253:1:253:3|Blackbox SB_IO_OD is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Mar 16 15:13:16 2021
+#
+
+
+Top view:               Technoshield_top
+Requested Frequency:    95.8 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.842
+
+                   Requested     Estimated     Requested     Estimated                Clock      Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type       Group          
+----------------------------------------------------------------------------------------------------------------
+System             95.8 MHz      81.4 MHz      10.438        12.280        -1.842     system     system_clkgroup
+================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+System    System  |  10.438      -1.842  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                       Starting                                                          Arrival           
+Instance                               Reference     Type        Pin     Net                             Time        Slack 
+                                       Clock                                                                               
+---------------------------------------------------------------------------------------------------------------------------
+stack0.Data_out_I2C_o_6_rep1           System        SB_DFFE     Q       Data_out_stack_6_rep1           0.796       -1.842
+stack0.Data_out_I2C_o_fast[6]          System        SB_DFFE     Q       Data_out_stack_fast[6]          0.796       -1.842
+stack0.Data_out_I2C_o_fast[5]          System        SB_DFFE     Q       Data_out_stack_fast[5]          0.796       -1.770
+stack0.Data_out_I2C_o_fast_5_rep1      System        SB_DFFE     Q       Data_out_stack_fast_5_rep1      0.796       -1.770
+stack0.Data_out_I2C_o_fast_fast[5]     System        SB_DFFE     Q       Data_out_stack_fast_fast[5]     0.796       -1.770
+reg_component0.High_depth_reg[42]      System        SB_DFFE     Q       High_depth_reg[42]              0.796       -1.739
+reg_component0.High_depth_reg[56]      System        SB_DFFE     Q       High_depth_reg[56]              0.796       -1.739
+reg_component0.High_depth_reg[57]      System        SB_DFFE     Q       High_depth_reg[57]              0.796       -1.739
+reg_component0.High_depth_reg[59]      System        SB_DFFE     Q       High_depth_reg[59]              0.796       -1.739
+reg_component0.High_depth_reg[60]      System        SB_DFFE     Q       High_depth_reg[60]              0.796       -1.739
+===========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                  Required           
+Instance                            Reference     Type        Pin     Net                     Time         Slack 
+                                    Clock                                                                        
+-----------------------------------------------------------------------------------------------------------------
+reg_component0.Data_in_I2C_o[0]     System        SB_DFFE     D       Data_in_I2C_o_20[0]     10.283       -1.842
+reg_component0.Data_in_I2C_o[1]     System        SB_DFFE     D       Data_in_I2C_o_20[1]     10.283       -1.842
+reg_component0.Data_in_I2C_o[2]     System        SB_DFFE     D       Data_in_I2C_o_20[2]     10.283       -1.842
+reg_component0.Data_in_I2C_o[3]     System        SB_DFFE     D       Data_in_I2C_o_20[3]     10.283       -1.842
+reg_component0.Data_in_I2C_o[4]     System        SB_DFFE     D       Data_in_I2C_o_20[4]     10.283       -1.842
+reg_component0.Data_in_I2C_o[5]     System        SB_DFFE     D       Data_in_I2C_o_20[5]     10.283       -1.842
+reg_component0.Data_in_I2C_o[6]     System        SB_DFFE     D       Data_in_I2C_o_20[6]     10.283       -1.842
+reg_component0.Data_in_I2C_o[7]     System        SB_DFFE     D       Data_in_I2C_o_20[7]     10.283       -1.842
+Warper0.etat_s_ret_2                System        SB_DFF      D       etat_s_ret_2_RNO        10.283       -0.202
+Warper0.etat_s_ret                  System        SB_DFF      D       N_25_0i                 10.283       -0.182
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.438
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.283
+
+    - Propagation time:                      12.125
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.842
+
+    Number of logic level(s):                5
+    Starting point:                          stack0.Data_out_I2C_o_6_rep1 / Q
+    Ending point:                            reg_component0.Data_in_I2C_o[5] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                       Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+stack0.Data_out_I2C_o_6_rep1               SB_DFFE     Q        Out     0.796     0.796       -         
+Data_out_stack_6_rep1                      Net         -        -       1.599     -           11        
+reg_component0.Data_in_I2C_o_RNO_10[5]     SB_LUT4     I0       In      -         2.395       -         
+reg_component0.Data_in_I2C_o_RNO_10[5]     SB_LUT4     O        Out     0.661     3.056       -         
+Data_in_I2C_o_8_6_ns_1[5]                  Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_8[5]      SB_LUT4     I3       In      -         4.427       -         
+reg_component0.Data_in_I2C_o_RNO_8[5]      SB_LUT4     O        Out     0.465     4.893       -         
+N_128                                      Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_4[5]      SB_LUT4     I2       In      -         6.263       -         
+reg_component0.Data_in_I2C_o_RNO_4[5]      SB_LUT4     O        Out     0.558     6.822       -         
+Data_in_I2C_o_8_15_ns_1[5]                 Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_0[5]      SB_LUT4     I3       In      -         8.193       -         
+reg_component0.Data_in_I2C_o_RNO_0[5]      SB_LUT4     O        Out     0.465     8.658       -         
+Data_in_I2C_o_8[5]                         Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO[5]        SB_LUT4     I1       In      -         10.029      -         
+reg_component0.Data_in_I2C_o_RNO[5]        SB_LUT4     O        Out     0.589     10.618      -         
+Data_in_I2C_o_20[5]                        Net         -        -       1.507     -           1         
+reg_component0.Data_in_I2C_o[5]            SB_DFFE     D        In      -         12.125      -         
+========================================================================================================
+Total path delay (propagation time + setup) of 12.280 is 3.690(30.0%) logic and 8.590(70.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.438
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.283
+
+    - Propagation time:                      12.125
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.842
+
+    Number of logic level(s):                5
+    Starting point:                          stack0.Data_out_I2C_o_fast[6] / Q
+    Ending point:                            reg_component0.Data_in_I2C_o[0] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                       Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+stack0.Data_out_I2C_o_fast[6]              SB_DFFE     Q        Out     0.796     0.796       -         
+Data_out_stack_fast[6]                     Net         -        -       1.599     -           10        
+reg_component0.Data_in_I2C_o_RNO_10[0]     SB_LUT4     I0       In      -         2.395       -         
+reg_component0.Data_in_I2C_o_RNO_10[0]     SB_LUT4     O        Out     0.661     3.056       -         
+Data_in_I2C_o_8_3_ns_1[0]                  Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_8[0]      SB_LUT4     I3       In      -         4.427       -         
+reg_component0.Data_in_I2C_o_RNO_8[0]      SB_LUT4     O        Out     0.465     4.893       -         
+N_195                                      Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_4[0]      SB_LUT4     I2       In      -         6.263       -         
+reg_component0.Data_in_I2C_o_RNO_4[0]      SB_LUT4     O        Out     0.558     6.822       -         
+Data_in_I2C_o_8_15_ns_1[0]                 Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_0[0]      SB_LUT4     I3       In      -         8.193       -         
+reg_component0.Data_in_I2C_o_RNO_0[0]      SB_LUT4     O        Out     0.465     8.658       -         
+Data_in_I2C_o_8[0]                         Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO[0]        SB_LUT4     I1       In      -         10.029      -         
+reg_component0.Data_in_I2C_o_RNO[0]        SB_LUT4     O        Out     0.589     10.618      -         
+Data_in_I2C_o_20[0]                        Net         -        -       1.507     -           1         
+reg_component0.Data_in_I2C_o[0]            SB_DFFE     D        In      -         12.125      -         
+========================================================================================================
+Total path delay (propagation time + setup) of 12.280 is 3.690(30.0%) logic and 8.590(70.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.438
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.283
+
+    - Propagation time:                      12.125
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.842
+
+    Number of logic level(s):                5
+    Starting point:                          stack0.Data_out_I2C_o_fast[6] / Q
+    Ending point:                            reg_component0.Data_in_I2C_o[1] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                       Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+stack0.Data_out_I2C_o_fast[6]              SB_DFFE     Q        Out     0.796     0.796       -         
+Data_out_stack_fast[6]                     Net         -        -       1.599     -           10        
+reg_component0.Data_in_I2C_o_RNO_10[1]     SB_LUT4     I0       In      -         2.395       -         
+reg_component0.Data_in_I2C_o_RNO_10[1]     SB_LUT4     O        Out     0.661     3.056       -         
+Data_in_I2C_o_8_3_ns_1[1]                  Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_8[1]      SB_LUT4     I3       In      -         4.427       -         
+reg_component0.Data_in_I2C_o_RNO_8[1]      SB_LUT4     O        Out     0.465     4.893       -         
+N_207                                      Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_4[1]      SB_LUT4     I2       In      -         6.263       -         
+reg_component0.Data_in_I2C_o_RNO_4[1]      SB_LUT4     O        Out     0.558     6.822       -         
+Data_in_I2C_o_8_15_ns_1[1]                 Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_0[1]      SB_LUT4     I3       In      -         8.193       -         
+reg_component0.Data_in_I2C_o_RNO_0[1]      SB_LUT4     O        Out     0.465     8.658       -         
+Data_in_I2C_o_8[1]                         Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO[1]        SB_LUT4     I1       In      -         10.029      -         
+reg_component0.Data_in_I2C_o_RNO[1]        SB_LUT4     O        Out     0.589     10.618      -         
+Data_in_I2C_o_20[1]                        Net         -        -       1.507     -           1         
+reg_component0.Data_in_I2C_o[1]            SB_DFFE     D        In      -         12.125      -         
+========================================================================================================
+Total path delay (propagation time + setup) of 12.280 is 3.690(30.0%) logic and 8.590(70.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.438
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.283
+
+    - Propagation time:                      12.125
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.842
+
+    Number of logic level(s):                5
+    Starting point:                          stack0.Data_out_I2C_o_fast[6] / Q
+    Ending point:                            reg_component0.Data_in_I2C_o[2] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                       Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+stack0.Data_out_I2C_o_fast[6]              SB_DFFE     Q        Out     0.796     0.796       -         
+Data_out_stack_fast[6]                     Net         -        -       1.599     -           10        
+reg_component0.Data_in_I2C_o_RNO_10[2]     SB_LUT4     I0       In      -         2.395       -         
+reg_component0.Data_in_I2C_o_RNO_10[2]     SB_LUT4     O        Out     0.661     3.056       -         
+Data_in_I2C_o_8_3_ns_1[2]                  Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_8[2]      SB_LUT4     I3       In      -         4.427       -         
+reg_component0.Data_in_I2C_o_RNO_8[2]      SB_LUT4     O        Out     0.465     4.893       -         
+N_219                                      Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_4[2]      SB_LUT4     I2       In      -         6.263       -         
+reg_component0.Data_in_I2C_o_RNO_4[2]      SB_LUT4     O        Out     0.558     6.822       -         
+Data_in_I2C_o_8_15_ns_1[2]                 Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_0[2]      SB_LUT4     I3       In      -         8.193       -         
+reg_component0.Data_in_I2C_o_RNO_0[2]      SB_LUT4     O        Out     0.465     8.658       -         
+Data_in_I2C_o_8[2]                         Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO[2]        SB_LUT4     I1       In      -         10.029      -         
+reg_component0.Data_in_I2C_o_RNO[2]        SB_LUT4     O        Out     0.589     10.618      -         
+Data_in_I2C_o_20[2]                        Net         -        -       1.507     -           1         
+reg_component0.Data_in_I2C_o[2]            SB_DFFE     D        In      -         12.125      -         
+========================================================================================================
+Total path delay (propagation time + setup) of 12.280 is 3.690(30.0%) logic and 8.590(70.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.438
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.283
+
+    - Propagation time:                      12.125
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.842
+
+    Number of logic level(s):                5
+    Starting point:                          stack0.Data_out_I2C_o_fast[6] / Q
+    Ending point:                            reg_component0.Data_in_I2C_o[3] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                       Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+stack0.Data_out_I2C_o_fast[6]              SB_DFFE     Q        Out     0.796     0.796       -         
+Data_out_stack_fast[6]                     Net         -        -       1.599     -           10        
+reg_component0.Data_in_I2C_o_RNO_10[3]     SB_LUT4     I0       In      -         2.395       -         
+reg_component0.Data_in_I2C_o_RNO_10[3]     SB_LUT4     O        Out     0.661     3.056       -         
+Data_in_I2C_o_8_3_ns_1[3]                  Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_8[3]      SB_LUT4     I3       In      -         4.427       -         
+reg_component0.Data_in_I2C_o_RNO_8[3]      SB_LUT4     O        Out     0.465     4.893       -         
+N_233                                      Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_4[3]      SB_LUT4     I2       In      -         6.263       -         
+reg_component0.Data_in_I2C_o_RNO_4[3]      SB_LUT4     O        Out     0.558     6.822       -         
+Data_in_I2C_o_8_15_ns_1[3]                 Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO_0[3]      SB_LUT4     I3       In      -         8.193       -         
+reg_component0.Data_in_I2C_o_RNO_0[3]      SB_LUT4     O        Out     0.465     8.658       -         
+Data_in_I2C_o_8[3]                         Net         -        -       1.371     -           1         
+reg_component0.Data_in_I2C_o_RNO[3]        SB_LUT4     I1       In      -         10.029      -         
+reg_component0.Data_in_I2C_o_RNO[3]        SB_LUT4     O        Out     0.589     10.618      -         
+Data_in_I2C_o_20[3]                        Net         -        -       1.507     -           1         
+reg_component0.Data_in_I2C_o[3]            SB_DFFE     D        In      -         12.125      -         
+========================================================================================================
+Total path delay (propagation time + setup) of 12.280 is 3.690(30.0%) logic and 8.590(70.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 145MB peak: 148MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 145MB peak: 148MB)
+
+---------------------------------------
+Resource Usage Report for Technoshield_top 
+
+Mapping to part: ice5lp1ksg48
+Cell usage:
+GND             3 uses
+SB_CARRY        22 uses
+SB_DFF          45 uses
+SB_DFFE         180 uses
+SB_DFFER        1 use
+SB_DFFSR        24 uses
+SB_GB           2 uses
+SB_HFOSC        1 use
+SB_I2C          1 use
+VCC             3 uses
+SB_LUT4         333 uses
+
+I/O ports: 14
+I/O primitives: 14
+SB_IO          11 uses
+SB_IO_OD       3 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   250 (25%)
+Total load per clock:
+
+@S |Mapping Summary:
+Total  LUTs: 333 (33%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 333 = 333 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 28MB peak: 148MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+# Tue Mar 16 15:13:16 2021
+
+###########################################################]

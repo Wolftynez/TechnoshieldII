@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For Technoshield-ui-lib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Technoshield_ui	KEYWORD2
+Technoshield2	KEYWORD2
+begin	KEYWORD2
+isButtonPressed	KEYWORD2
+setLedState	KEYWORD2
+blinkLed	KEYWORD2
+setLedRGB	KEYWORD2
+pmodRead	KEYWORD2
+pmodWrite	KEYWORD2
+pmodSet	KEYWORD2
+setDrvMosfet	KEYWORD2
+setLedPWR	KEYWORD2
+
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+JUMPER_CLOSE	LITERAL1
+JUMPER_OPEN	LITERAL1
