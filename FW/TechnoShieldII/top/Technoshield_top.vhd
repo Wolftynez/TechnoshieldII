@@ -14,7 +14,7 @@ use sb_ice40_components_syn.components.all;
 
 entity Technoshield_top is
     Port ( 
-		but_i      : in STD_LOGIC_VECTOR (3 downto 0);
+		but_i      	  : in STD_LOGIC_VECTOR (3 downto 0);
 		Led_o 	  	  : out STD_LOGIC_VECTOR (4 downto 0);
 		Led_RGB_o     : inout std_logic_vector (2 downto 0);
 		SDA_io		  : inout std_logic;		

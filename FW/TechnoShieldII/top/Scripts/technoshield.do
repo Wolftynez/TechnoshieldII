@@ -16,8 +16,9 @@ vcom vcomponent_vital.vhd
 vcom sb_ice_syn_vital.vhd
 vcom sb_ice_lc_vital.vhd
 
-vcom stack.vhd
-vcom reg_component.vhd
+vcom Sub_module/Stack/stack.vhd
+vcom Sub_module/Reg_component/reg_component.vhd
+vcom Sub_module/i2c_Warper/I2C_Warper.vhd
 
 vcom  Technoshield_top.vhd
 vcom  tb/technoshield_top_tb.vhd

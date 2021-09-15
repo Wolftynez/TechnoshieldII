@@ -1,0 +1,147 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/temp/technoShieldII/reg_component
+Ereg_c
+Z1 w1613511381
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 127
+R0
+Z6 8reg_component.vhd
+Z7 Freg_component.vhd
+l0
+Z8 L12 1
+VI]S>iAl@l:PH^O2h4MK550
+!s100 khEE;AS@ZmoZP6SOnL;]l0
+Z9 OT;C;2020.3;71
+32
+Z10 !s110 1613511943
+!i10b 1
+Z11 !s108 1613511943.000000
+Z12 !s90 -reportprogress|300|reg_component.vhd|
+Z13 !s107 reg_component.vhd|
+!i113 1
+o-O0
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 5 reg_c 0 22 I]S>iAl@l:PH^O2h4MK550
+!i122 127
+l32
+L25 53
+V?28lh25S8VJ@bUWk26[i^2
+!s100 PFf7NfU>4JQD]CHSDdZL12
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+o-O0
+R14
+Ereg_component
+Z15 w1621653360
+R2
+R3
+R4
+R5
+!i122 277
+dC:/Users/fafoi/oneDrive/bureau/git/TEchnoshieldII/FW/TechnoShieldII/reg_component
+R6
+R7
+l0
+R8
+VIU3iYzi0O3>Pa=a[3;9KX1
+!s100 i^kYC]NJBO30zZnncMd=T1
+R9
+32
+!s110 1622559633
+!i10b 1
+!s108 1622559633.000000
+R12
+R13
+!i113 1
+o-O0
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 13 reg_component 0 22 ^=@f<9nYJF8VFBS@F@@i[1
+!i122 275
+l35
+L24 47
+VU43210X^O1nCO3jAd650m2
+!s100 1^6W;K@;=;I>Ng<F8F]dc2
+R9
+32
+Z16 !s110 1613591501
+!i10b 1
+Z17 !s108 1613591501.000000
+R12
+R13
+!i113 1
+o-O0
+R14
+R0
+Ereg_component_tb
+Z18 w1613591495
+R2
+R3
+R4
+R5
+!i122 276
+R0
+Z19 8tb/reg_component_tb.vhd
+Z20 Ftb/reg_component_tb.vhd
+l0
+L33 1
+VE89W0BK2kehKnAF:hAZ<S3
+!s100 <@PMWNlfDVI96Km3YFR6o2
+R9
+32
+R16
+!i10b 1
+R17
+Z21 !s90 -reportprogress|300|tb/reg_component_tb.vhd|
+Z22 !s107 tb/reg_component_tb.vhd|
+!i113 1
+o-O0
+R14
+Areg_component_a0
+R2
+R3
+R4
+R5
+DEx4 work 16 reg_component_tb 0 22 E89W0BK2kehKnAF:hAZ<S3
+!i122 276
+l59
+L42 74
+V1oEE[P>i9=e_bC]ofCjBf3
+!s100 ]I_MI^jdB2R@aCXNh3T?S0
+R9
+32
+R16
+!i10b 1
+R17
+R21
+R22
+!i113 1
+o-O0
+R14
