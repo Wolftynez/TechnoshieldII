@@ -1,0 +1,10 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe  -osyn  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synwork\h_comp.srs  -hdllog  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synlog\h_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod  -encrypt  -pro  -dmgen  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work D:\Temp\TechnoShieldII\top\stack.vhd -lib work D:\Temp\TechnoShieldII\top\reg_component.vhd -lib work D:\Temp\TechnoShieldII\top\Technoshield_top.vhd -lib work D:\Temp\TechnoShieldII\top\I2C_Warper.vhd 
+rc:0 success:1 runtime:2
+file:D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synwork\h_comp.srs|io:o|time:1615921989|size:18572|exec:0
+file:D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synlog\h_compiler.srr|io:o|time:1615921989|size:7679|exec:0
+file:D:\Temp\TechnoShieldII\top\stack.vhd|io:i|time:1614010466|size:1465|exec:0
+file:D:\Temp\TechnoShieldII\top\reg_component.vhd|io:i|time:1614111993|size:3528|exec:0
+file:D:\Temp\TechnoShieldII\top\Technoshield_top.vhd|io:i|time:1615921982|size:5389|exec:0
+file:D:\Temp\TechnoShieldII\top\I2C_Warper.vhd|io:i|time:1614110302|size:11444|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\c_hdl.exe|io:i|time:1611766704|size:1338368|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe|io:i|time:1611766706|size:1754112|exec:1

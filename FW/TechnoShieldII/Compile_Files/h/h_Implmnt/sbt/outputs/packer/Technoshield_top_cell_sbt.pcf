@@ -1,0 +1,709 @@
+ble_pack OD0LegalizeSB_DFF_LC_4_20_0 { OD0ConstOneLUT4, OD0LegalizeSB_DFF }
+ble_pack OD1LegalizeSB_DFF_LC_4_20_1 { OD1ConstOneLUT4, OD1LegalizeSB_DFF }
+clb_pack LT_4_20 { OD0LegalizeSB_DFF_LC_4_20_0, OD1LegalizeSB_DFF_LC_4_20_1 }
+set_location LT_4_20 4 20
+ble_pack OD2LegalizeSB_DFF_LC_5_20_0 { OD2ConstOneLUT4, OD2LegalizeSB_DFF }
+clb_pack LT_5_20 { OD2LegalizeSB_DFF_LC_5_20_0 }
+set_location LT_5_20 5 20
+ble_pack reg_component0.Led_OD_o_2_LC_13_19_4 { reg_component0.Led_OD_o_RNO[2], reg_component0.Led_OD_o[2] }
+clb_pack LT_13_19 { reg_component0.Led_OD_o_2_LC_13_19_4 }
+set_location LT_13_19 13 19
+ble_pack SDA_io_iobufAndLUT4_LC_14_1_0 { SDA_io_iobufAndLUT4 }
+ble_pack SDA_io_iobufLegalizeSB_DFF_LC_14_1_1 { SDA_io_iobufConstOneLUT4, SDA_io_iobufLegalizeSB_DFF }
+clb_pack LT_14_1 { SDA_io_iobufAndLUT4_LC_14_1_0, SDA_io_iobufLegalizeSB_DFF_LC_14_1_1 }
+set_location LT_14_1 14 1
+ble_pack reg_component0.Led_o_1_2_LC_14_11_0 { reg_component0.Led_o_1_RNO[2], reg_component0.Led_o_1[2] }
+ble_pack reg_component0.Led_io_o_LC_14_11_3 { reg_component0.Led_io_o_RNO, reg_component0.Led_io_o }
+clb_pack LT_14_11 { reg_component0.Led_o_1_2_LC_14_11_0, reg_component0.Led_io_o_LC_14_11_3 }
+set_location LT_14_11 14 11
+ble_pack reg_component0.IO_register_20_LC_14_16_5 { reg_component0.IO_register_RNO[20], reg_component0.IO_register[20] }
+clb_pack LT_14_16 { reg_component0.IO_register_20_LC_14_16_5 }
+set_location LT_14_16 14 16
+ble_pack reg_component0.Data_in_I2C_o_RNO_1_5_LC_14_17_0 { reg_component0.Data_in_I2C_o_RNO_1[5] }
+ble_pack reg_component0.IO_register_18_LC_14_17_2 { reg_component0.IO_register_RNO[18], reg_component0.IO_register[18] }
+clb_pack LT_14_17 { reg_component0.Data_in_I2C_o_RNO_1_5_LC_14_17_0, reg_component0.IO_register_18_LC_14_17_2 }
+set_location LT_14_17 14 17
+ble_pack reg_component0.Data_in_I2C_o_RNO_5_5_LC_14_18_2 { reg_component0.Data_in_I2C_o_RNO_5[5] }
+ble_pack reg_component0.IO_register_10_LC_14_18_7 { reg_component0.IO_register_RNO[10], reg_component0.IO_register[10] }
+clb_pack LT_14_18 { reg_component0.Data_in_I2C_o_RNO_5_5_LC_14_18_2, reg_component0.IO_register_10_LC_14_18_7 }
+set_location LT_14_18 14 18
+ble_pack stack0.Enable_RNIRAJ3_LC_14_19_7 { stack0.Enable_RNIRAJ3 }
+clb_pack LT_14_19 { stack0.Enable_RNIRAJ3_LC_14_19_7 }
+set_location LT_14_19 14 19
+ble_pack reg_component0.Led_OD_o_0_LC_14_20_1 { reg_component0.Led_OD_o_RNO[0], reg_component0.Led_OD_o[0] }
+ble_pack reg_component0.Led_OD_o_1_LC_14_20_7 { reg_component0.Led_OD_o_RNO[1], reg_component0.Led_OD_o[1] }
+clb_pack LT_14_20 { reg_component0.Led_OD_o_0_LC_14_20_1, reg_component0.Led_OD_o_1_LC_14_20_7 }
+set_location LT_14_20 14 20
+ble_pack reg_component0.COUNTER_RNIHFUB_11_LC_15_7_6 { reg_component0.COUNTER_RNIHFUB[11] }
+clb_pack LT_15_7 { reg_component0.COUNTER_RNIHFUB_11_LC_15_7_6 }
+set_location LT_15_7 15 7
+ble_pack reg_component0.Led_io_o_RNIKMUK_LC_15_9_0 { reg_component0.Led_io_o_RNIKMUK }
+ble_pack reg_component0.COUNTER_RNIHH0C_20_LC_15_9_1 { reg_component0.COUNTER_RNIHH0C[20] }
+ble_pack reg_component0.COUNTER_RNIMM0U_19_LC_15_9_2 { reg_component0.COUNTER_RNIMM0U[19] }
+ble_pack reg_component0.COUNTER_RNIA8UH_16_LC_15_9_3 { reg_component0.COUNTER_RNIA8UH[16] }
+ble_pack reg_component0.COUNTER_RNIIOAO_8_LC_15_9_4 { reg_component0.COUNTER_RNIIOAO[8] }
+ble_pack reg_component0.Led_Blink_s_RNO_0_LC_15_9_5 { reg_component0.Led_Blink_s_RNO_0 }
+ble_pack reg_component0.Led_Blink_s_LC_15_9_6 { reg_component0.Led_Blink_s_RNO, reg_component0.Led_Blink_s }
+clb_pack LT_15_9 { reg_component0.Led_io_o_RNIKMUK_LC_15_9_0, reg_component0.COUNTER_RNIHH0C_20_LC_15_9_1, reg_component0.COUNTER_RNIMM0U_19_LC_15_9_2, reg_component0.COUNTER_RNIA8UH_16_LC_15_9_3, reg_component0.COUNTER_RNIIOAO_8_LC_15_9_4, reg_component0.Led_Blink_s_RNO_0_LC_15_9_5, reg_component0.Led_Blink_s_LC_15_9_6 }
+set_location LT_15_9 15 9
+ble_pack reg_component0.High_depth_reg_89_LC_15_12_0 { reg_component0.High_depth_reg_89_THRU_LUT4_0, reg_component0.High_depth_reg[89] }
+clb_pack LT_15_12 { reg_component0.High_depth_reg_89_LC_15_12_0 }
+set_location LT_15_12 15 12
+ble_pack reg_component0.Data_in_I2C_o_RNO_1_1_LC_15_13_6 { reg_component0.Data_in_I2C_o_RNO_1[1] }
+clb_pack LT_15_13 { reg_component0.Data_in_I2C_o_RNO_1_1_LC_15_13_6 }
+set_location LT_15_13 15 13
+ble_pack reg_component0.Led_o_1_1_LC_15_15_4 { reg_component0.Led_o_1_RNO[1], reg_component0.Led_o_1[1] }
+ble_pack reg_component0.Led_o_1_3_LC_15_15_6 { reg_component0.Led_o_1_RNO[3], reg_component0.Led_o_1[3] }
+ble_pack reg_component0.Led_o_1_4_LC_15_15_7 { reg_component0.Led_o_1_RNO[4], reg_component0.Led_o_1[4] }
+clb_pack LT_15_15 { reg_component0.Led_o_1_1_LC_15_15_4, reg_component0.Led_o_1_3_LC_15_15_6, reg_component0.Led_o_1_4_LC_15_15_7 }
+set_location LT_15_15 15 15
+ble_pack reg_component0.IO_register_22_LC_15_16_1 { reg_component0.IO_register_RNO[22], reg_component0.IO_register[22] }
+clb_pack LT_15_16 { reg_component0.IO_register_22_LC_15_16_1 }
+set_location LT_15_16 15 16
+ble_pack reg_component0.IO_register_7_LC_15_17_0 { reg_component0.IO_register_RNO[7], reg_component0.IO_register[7] }
+ble_pack reg_component0.IO_register_9_15_1_LC_15_17_4 { reg_component0.IO_register_9_15_1 }
+ble_pack reg_component0.IO_register_23_LC_15_17_5 { reg_component0.IO_register_RNO[23], reg_component0.IO_register[23] }
+ble_pack reg_component0.IO_registerce_0_10_LC_15_17_6 { reg_component0.IO_registerce_0[10] }
+ble_pack reg_component0.IO_register_2_LC_15_17_7 { reg_component0.IO_register_RNO[2], reg_component0.IO_register[2] }
+clb_pack LT_15_17 { reg_component0.IO_register_7_LC_15_17_0, reg_component0.IO_register_9_15_1_LC_15_17_4, reg_component0.IO_register_23_LC_15_17_5, reg_component0.IO_registerce_0_10_LC_15_17_6, reg_component0.IO_register_2_LC_15_17_7 }
+set_location LT_15_17 15 17
+ble_pack reg_component0.IO_register_17_LC_15_18_0 { reg_component0.IO_register_RNO[17], reg_component0.IO_register[17] }
+ble_pack reg_component0.IO_register_9_0_1_LC_15_18_1 { reg_component0.IO_register_9_0_1 }
+ble_pack reg_component0.IO_register_9_LC_15_18_2 { reg_component0.IO_register_RNO[9], reg_component0.IO_register[9] }
+ble_pack reg_component0.IO_register_1_LC_15_18_3 { reg_component0.IO_register_RNO[1], reg_component0.IO_register[1] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_5_6_LC_15_18_4 { reg_component0.Data_in_I2C_o_RNO_5[6] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_1_6_LC_15_18_5 { reg_component0.Data_in_I2C_o_RNO_1[6] }
+ble_pack reg_component0.IO_register_26_LC_15_18_6 { reg_component0.IO_register_RNO[26], reg_component0.IO_register[26] }
+ble_pack reg_component0.IO_register_25_LC_15_18_7 { reg_component0.IO_register_RNO[25], reg_component0.IO_register[25] }
+clb_pack LT_15_18 { reg_component0.IO_register_17_LC_15_18_0, reg_component0.IO_register_9_0_1_LC_15_18_1, reg_component0.IO_register_9_LC_15_18_2, reg_component0.IO_register_1_LC_15_18_3, reg_component0.Data_in_I2C_o_RNO_5_6_LC_15_18_4, reg_component0.Data_in_I2C_o_RNO_1_6_LC_15_18_5, reg_component0.IO_register_26_LC_15_18_6, reg_component0.IO_register_25_LC_15_18_7 }
+set_location LT_15_18 15 18
+ble_pack stack0.Data_out_I2C_o_6_LC_15_19_0 { stack0.Data_out_I2C_o_RNO[6], stack0.Data_out_I2C_o[6] }
+ble_pack stack0.Data_out_I2C_o_5_LC_15_19_6 { stack0.Data_out_I2C_o_RNO[5], stack0.Data_out_I2C_o[5] }
+clb_pack LT_15_19 { stack0.Data_out_I2C_o_6_LC_15_19_0, stack0.Data_out_I2C_o_5_LC_15_19_6 }
+set_location LT_15_19 15 19
+ble_pack reg_component0.COUNTER_RNI2HN_1_LC_16_7_0 { reg_component0.COUNTER_RNI2HN[1] }
+ble_pack reg_component0.COUNTER_RNIEBEP_1_LC_16_7_1 { reg_component0.COUNTER_RNIEBEP[1] }
+ble_pack reg_component0.COUNTER_RNIAPN_5_LC_16_7_3 { reg_component0.COUNTER_RNIAPN[5] }
+ble_pack reg_component0.COUNTER_1_LC_16_7_4 { reg_component0.COUNTER_RNO[1], reg_component0.COUNTER[1] }
+ble_pack reg_component0.COUNTER_RNIVPQ72_23_LC_16_7_5 { reg_component0.COUNTER_RNIVPQ72[23] }
+ble_pack reg_component0.COUNTER_RNILKKN4_8_LC_16_7_6 { reg_component0.COUNTER_RNILKKN4[8] }
+ble_pack reg_component0.COUNTER_0_LC_16_7_7 { reg_component0.COUNTER_RNO[0], reg_component0.COUNTER[0] }
+clb_pack LT_16_7 { reg_component0.COUNTER_RNI2HN_1_LC_16_7_0, reg_component0.COUNTER_RNIEBEP_1_LC_16_7_1, reg_component0.COUNTER_RNIAPN_5_LC_16_7_3, reg_component0.COUNTER_1_LC_16_7_4, reg_component0.COUNTER_RNIVPQ72_23_LC_16_7_5, reg_component0.COUNTER_RNILKKN4_8_LC_16_7_6, reg_component0.COUNTER_0_LC_16_7_7 }
+set_location LT_16_7 16 7
+ble_pack reg_component0.un2_counter_cry_1_c_LC_16_8_0 { reg_component0.un2_counter_cry_1_c }
+ble_pack reg_component0.COUNTER_2_LC_16_8_1 { reg_component0.COUNTER_RNO[2], reg_component0.COUNTER[2], reg_component0.un2_counter_cry_2_c }
+ble_pack reg_component0.COUNTER_3_LC_16_8_2 { reg_component0.COUNTER_RNO[3], reg_component0.COUNTER[3], reg_component0.un2_counter_cry_3_c }
+ble_pack reg_component0.COUNTER_4_LC_16_8_3 { reg_component0.COUNTER_RNO[4], reg_component0.COUNTER[4], reg_component0.un2_counter_cry_4_c }
+ble_pack reg_component0.COUNTER_5_LC_16_8_4 { reg_component0.COUNTER_RNO[5], reg_component0.COUNTER[5], reg_component0.un2_counter_cry_5_c }
+ble_pack reg_component0.COUNTER_6_LC_16_8_5 { reg_component0.COUNTER_RNO[6], reg_component0.COUNTER[6], reg_component0.un2_counter_cry_6_c }
+ble_pack reg_component0.COUNTER_7_LC_16_8_6 { reg_component0.COUNTER_RNO[7], reg_component0.COUNTER[7], reg_component0.un2_counter_cry_7_c }
+ble_pack reg_component0.COUNTER_8_LC_16_8_7 { reg_component0.COUNTER_RNO[8], reg_component0.COUNTER[8], reg_component0.un2_counter_cry_8_c }
+clb_pack LT_16_8 { reg_component0.un2_counter_cry_1_c_LC_16_8_0, reg_component0.COUNTER_2_LC_16_8_1, reg_component0.COUNTER_3_LC_16_8_2, reg_component0.COUNTER_4_LC_16_8_3, reg_component0.COUNTER_5_LC_16_8_4, reg_component0.COUNTER_6_LC_16_8_5, reg_component0.COUNTER_7_LC_16_8_6, reg_component0.COUNTER_8_LC_16_8_7 }
+set_location LT_16_8 16 8
+ble_pack reg_component0.COUNTER_9_LC_16_9_0 { reg_component0.COUNTER_RNO[9], reg_component0.COUNTER[9], reg_component0.un2_counter_cry_9_c }
+ble_pack reg_component0.COUNTER_10_LC_16_9_1 { reg_component0.COUNTER_RNO[10], reg_component0.COUNTER[10], reg_component0.un2_counter_cry_10_c }
+ble_pack reg_component0.COUNTER_11_LC_16_9_2 { reg_component0.COUNTER_RNO[11], reg_component0.COUNTER[11], reg_component0.un2_counter_cry_11_c }
+ble_pack reg_component0.COUNTER_12_LC_16_9_3 { reg_component0.COUNTER_RNO[12], reg_component0.COUNTER[12], reg_component0.un2_counter_cry_12_c }
+ble_pack reg_component0.COUNTER_13_LC_16_9_4 { reg_component0.COUNTER_RNO[13], reg_component0.COUNTER[13], reg_component0.un2_counter_cry_13_c }
+ble_pack reg_component0.COUNTER_14_LC_16_9_5 { reg_component0.COUNTER_RNO[14], reg_component0.COUNTER[14], reg_component0.un2_counter_cry_14_c }
+ble_pack reg_component0.COUNTER_15_LC_16_9_6 { reg_component0.COUNTER_RNO[15], reg_component0.COUNTER[15], reg_component0.un2_counter_cry_15_c }
+ble_pack reg_component0.COUNTER_16_LC_16_9_7 { reg_component0.COUNTER_RNO[16], reg_component0.COUNTER[16], reg_component0.un2_counter_cry_16_c }
+clb_pack LT_16_9 { reg_component0.COUNTER_9_LC_16_9_0, reg_component0.COUNTER_10_LC_16_9_1, reg_component0.COUNTER_11_LC_16_9_2, reg_component0.COUNTER_12_LC_16_9_3, reg_component0.COUNTER_13_LC_16_9_4, reg_component0.COUNTER_14_LC_16_9_5, reg_component0.COUNTER_15_LC_16_9_6, reg_component0.COUNTER_16_LC_16_9_7 }
+set_location LT_16_9 16 9
+ble_pack reg_component0.COUNTER_17_LC_16_10_0 { reg_component0.COUNTER_RNO[17], reg_component0.COUNTER[17], reg_component0.un2_counter_cry_17_c }
+ble_pack reg_component0.COUNTER_18_LC_16_10_1 { reg_component0.COUNTER_RNO[18], reg_component0.COUNTER[18], reg_component0.un2_counter_cry_18_c }
+ble_pack reg_component0.COUNTER_19_LC_16_10_2 { reg_component0.COUNTER_RNO[19], reg_component0.COUNTER[19], reg_component0.un2_counter_cry_19_c }
+ble_pack reg_component0.COUNTER_20_LC_16_10_3 { reg_component0.COUNTER_RNO[20], reg_component0.COUNTER[20], reg_component0.un2_counter_cry_20_c }
+ble_pack reg_component0.COUNTER_21_LC_16_10_4 { reg_component0.COUNTER_RNO[21], reg_component0.COUNTER[21], reg_component0.un2_counter_cry_21_c }
+ble_pack reg_component0.COUNTER_22_LC_16_10_5 { reg_component0.COUNTER_RNO[22], reg_component0.COUNTER[22], reg_component0.un2_counter_cry_22_c }
+ble_pack reg_component0.COUNTER_23_LC_16_10_6 { reg_component0.COUNTER_RNO[23], reg_component0.COUNTER[23] }
+clb_pack LT_16_10 { reg_component0.COUNTER_17_LC_16_10_0, reg_component0.COUNTER_18_LC_16_10_1, reg_component0.COUNTER_19_LC_16_10_2, reg_component0.COUNTER_20_LC_16_10_3, reg_component0.COUNTER_21_LC_16_10_4, reg_component0.COUNTER_22_LC_16_10_5, reg_component0.COUNTER_23_LC_16_10_6 }
+set_location LT_16_10 16 10
+ble_pack reg_component0.High_depth_reg_31_LC_16_11_5 { reg_component0.High_depth_reg_31_THRU_LUT4_0, reg_component0.High_depth_reg[31] }
+clb_pack LT_16_11 { reg_component0.High_depth_reg_31_LC_16_11_5 }
+set_location LT_16_11 16 11
+ble_pack reg_component0.Data_in_I2C_o_RNO_1_3_LC_16_12_6 { reg_component0.Data_in_I2C_o_RNO_1[3] }
+clb_pack LT_16_12 { reg_component0.Data_in_I2C_o_RNO_1_3_LC_16_12_6 }
+set_location LT_16_12 16 12
+ble_pack reg_component0.Data_in_I2C_o_RNO_5_1_LC_16_13_3 { reg_component0.Data_in_I2C_o_RNO_5[1] }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_11_LC_16_13_7 { reg_component0.High_depth_reg_0_sqmuxa_11 }
+clb_pack LT_16_13 { reg_component0.Data_in_I2C_o_RNO_5_1_LC_16_13_3, reg_component0.High_depth_reg_0_sqmuxa_11_LC_16_13_7 }
+set_location LT_16_13 16 13
+ble_pack reg_component0.High_depth_reg_34_LC_16_14_0 { reg_component0.High_depth_reg_34_THRU_LUT4_0, reg_component0.High_depth_reg[34] }
+ble_pack reg_component0.High_depth_reg_35_LC_16_14_1 { reg_component0.High_depth_reg_35_THRU_LUT4_0, reg_component0.High_depth_reg[35] }
+ble_pack reg_component0.High_depth_reg_36_LC_16_14_2 { reg_component0.High_depth_reg_36_THRU_LUT4_0, reg_component0.High_depth_reg[36] }
+ble_pack reg_component0.High_depth_reg_37_LC_16_14_3 { reg_component0.High_depth_reg_37_THRU_LUT4_0, reg_component0.High_depth_reg[37] }
+ble_pack reg_component0.High_depth_reg_38_LC_16_14_4 { reg_component0.High_depth_reg_38_THRU_LUT4_0, reg_component0.High_depth_reg[38] }
+ble_pack reg_component0.High_depth_reg_39_LC_16_14_5 { reg_component0.High_depth_reg_39_THRU_LUT4_0, reg_component0.High_depth_reg[39] }
+clb_pack LT_16_14 { reg_component0.High_depth_reg_34_LC_16_14_0, reg_component0.High_depth_reg_35_LC_16_14_1, reg_component0.High_depth_reg_36_LC_16_14_2, reg_component0.High_depth_reg_37_LC_16_14_3, reg_component0.High_depth_reg_38_LC_16_14_4, reg_component0.High_depth_reg_39_LC_16_14_5 }
+set_location LT_16_14 16 14
+ble_pack reg_component0.High_depth_reg_24_LC_16_15_0 { reg_component0.High_depth_reg_24_THRU_LUT4_0, reg_component0.High_depth_reg[24] }
+ble_pack reg_component0.High_depth_reg_25_LC_16_15_1 { reg_component0.High_depth_reg_25_THRU_LUT4_0, reg_component0.High_depth_reg[25] }
+ble_pack reg_component0.High_depth_reg_26_LC_16_15_2 { reg_component0.High_depth_reg_26_THRU_LUT4_0, reg_component0.High_depth_reg[26] }
+ble_pack reg_component0.High_depth_reg_27_LC_16_15_3 { reg_component0.High_depth_reg_27_THRU_LUT4_0, reg_component0.High_depth_reg[27] }
+ble_pack reg_component0.High_depth_reg_28_LC_16_15_4 { reg_component0.High_depth_reg_28_THRU_LUT4_0, reg_component0.High_depth_reg[28] }
+ble_pack reg_component0.High_depth_reg_29_LC_16_15_5 { reg_component0.High_depth_reg_29_THRU_LUT4_0, reg_component0.High_depth_reg[29] }
+ble_pack reg_component0.High_depth_reg_30_LC_16_15_6 { reg_component0.High_depth_reg_30_THRU_LUT4_0, reg_component0.High_depth_reg[30] }
+clb_pack LT_16_15 { reg_component0.High_depth_reg_24_LC_16_15_0, reg_component0.High_depth_reg_25_LC_16_15_1, reg_component0.High_depth_reg_26_LC_16_15_2, reg_component0.High_depth_reg_27_LC_16_15_3, reg_component0.High_depth_reg_28_LC_16_15_4, reg_component0.High_depth_reg_29_LC_16_15_5, reg_component0.High_depth_reg_30_LC_16_15_6 }
+set_location LT_16_15 16 15
+ble_pack reg_component0.IO_register_4_LC_16_16_0 { reg_component0.IO_register_RNO[4], reg_component0.IO_register[4] }
+ble_pack reg_component0.IO_register_12_LC_16_16_1 { reg_component0.IO_register_RNO[12], reg_component0.IO_register[12] }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_5_LC_16_16_3 { reg_component0.High_depth_reg_0_sqmuxa_5 }
+ble_pack reg_component0.IO_registerce_0_6_LC_16_16_4 { reg_component0.IO_registerce_0[6] }
+ble_pack reg_component0.IO_register_14_LC_16_16_5 { reg_component0.IO_register_RNO[14], reg_component0.IO_register[14] }
+ble_pack reg_component0.IO_register_6_LC_16_16_6 { reg_component0.IO_register_RNO[6], reg_component0.IO_register[6] }
+clb_pack LT_16_16 { reg_component0.IO_register_4_LC_16_16_0, reg_component0.IO_register_12_LC_16_16_1, reg_component0.High_depth_reg_0_sqmuxa_5_LC_16_16_3, reg_component0.IO_registerce_0_6_LC_16_16_4, reg_component0.IO_register_14_LC_16_16_5, reg_component0.IO_register_6_LC_16_16_6 }
+set_location LT_16_16 16 16
+ble_pack reg_component0.IO_register_9_12_1_LC_16_17_0 { reg_component0.IO_register_9_12_1 }
+ble_pack reg_component0.Data_in_I2C_o_RNO_5_3_LC_16_17_1 { reg_component0.Data_in_I2C_o_RNO_5[3] }
+ble_pack reg_component0.IO_register_9_4_1_LC_16_17_2 { reg_component0.IO_register_9_4_1 }
+ble_pack reg_component0.IO_register_0_LC_16_17_3 { reg_component0.IO_register_RNO[0], reg_component0.IO_register[0] }
+ble_pack reg_component0.IO_registerce_0_15_LC_16_17_4 { reg_component0.IO_registerce_0[15] }
+ble_pack reg_component0.IO_register_15_LC_16_17_5 { reg_component0.IO_register_RNO[15], reg_component0.IO_register[15] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_5_4_LC_16_17_7 { reg_component0.Data_in_I2C_o_RNO_5[4] }
+clb_pack LT_16_17 { reg_component0.IO_register_9_12_1_LC_16_17_0, reg_component0.Data_in_I2C_o_RNO_5_3_LC_16_17_1, reg_component0.IO_register_9_4_1_LC_16_17_2, reg_component0.IO_register_0_LC_16_17_3, reg_component0.IO_registerce_0_15_LC_16_17_4, reg_component0.IO_register_15_LC_16_17_5, reg_component0.Data_in_I2C_o_RNO_5_4_LC_16_17_7 }
+set_location LT_16_17 16 17
+ble_pack reg_component0.IO_registerce_0_1_LC_16_18_0 { reg_component0.IO_registerce_0[1] }
+ble_pack reg_component0.IO_register_19_LC_16_18_1 { reg_component0.IO_register_RNO[19], reg_component0.IO_register[19] }
+ble_pack reg_component0.IO_register_16_LC_16_18_2 { reg_component0.IO_register_RNO[16], reg_component0.IO_register[16] }
+ble_pack reg_component0.IO_register_11_LC_16_18_3 { reg_component0.IO_register_RNO[11], reg_component0.IO_register[11] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_5_7_LC_16_18_5 { reg_component0.Data_in_I2C_o_RNO_5[7] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_1_7_LC_16_18_6 { reg_component0.Data_in_I2C_o_RNO_1[7] }
+ble_pack reg_component0.IO_register_8_LC_16_18_7 { reg_component0.IO_register_RNO[8], reg_component0.IO_register[8] }
+clb_pack LT_16_18 { reg_component0.IO_registerce_0_1_LC_16_18_0, reg_component0.IO_register_19_LC_16_18_1, reg_component0.IO_register_16_LC_16_18_2, reg_component0.IO_register_11_LC_16_18_3, reg_component0.Data_in_I2C_o_RNO_5_7_LC_16_18_5, reg_component0.Data_in_I2C_o_RNO_1_7_LC_16_18_6, reg_component0.IO_register_8_LC_16_18_7 }
+set_location LT_16_18 16 18
+ble_pack reg_component0.IO_register_13_LC_16_19_2 { reg_component0.IO_register_RNO[13], reg_component0.IO_register[13] }
+ble_pack reg_component0.IO_register_sbtinv_27_LC_16_19_6 { reg_component0.IO_register_sbtinv[27] }
+clb_pack LT_16_19 { reg_component0.IO_register_13_LC_16_19_2, reg_component0.IO_register_sbtinv_27_LC_16_19_6 }
+set_location LT_16_19 16 19
+ble_pack stack0.Data_LSB_6_LC_16_20_0 { stack0.m8_stack0.Data_LSB_6_REP_LUT4_0, stack0.Data_LSB[6] }
+ble_pack stack0.Data_LSB_7_LC_16_20_1 { stack0.Data_LSB_7_THRU_LUT4_0, stack0.Data_LSB[7] }
+clb_pack LT_16_20 { stack0.Data_LSB_6_LC_16_20_0, stack0.Data_LSB_7_LC_16_20_1 }
+set_location LT_16_20 16 20
+ble_pack reg_component0.COUNTER_RNIPKR31_13_LC_17_8_0 { reg_component0.COUNTER_RNIPKR31[13] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_8_0_LC_17_8_2 { reg_component0.Data_in_I2C_o_RNO_8[0] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_4_0_LC_17_8_3 { reg_component0.Data_in_I2C_o_RNO_4[0] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_0_0_LC_17_8_4 { reg_component0.Data_in_I2C_o_RNO_0[0] }
+clb_pack LT_17_8 { reg_component0.COUNTER_RNIPKR31_13_LC_17_8_0, reg_component0.Data_in_I2C_o_RNO_8_0_LC_17_8_2, reg_component0.Data_in_I2C_o_RNO_4_0_LC_17_8_3, reg_component0.Data_in_I2C_o_RNO_0_0_LC_17_8_4 }
+set_location LT_17_8 17 8
+ble_pack reg_component0.COUNTER_RNIOLTH_10_LC_17_9_1 { reg_component0.COUNTER_RNIOLTH[10] }
+clb_pack LT_17_9 { reg_component0.COUNTER_RNIOLTH_10_LC_17_9_1 }
+set_location LT_17_9 17 9
+ble_pack reg_component0.High_depth_reg_95_LC_17_10_6 { reg_component0.High_depth_reg_95_THRU_LUT4_0, reg_component0.High_depth_reg[95] }
+clb_pack LT_17_10 { reg_component0.High_depth_reg_95_LC_17_10_6 }
+set_location LT_17_10 17 10
+ble_pack reg_component0.High_depth_reg_121_LC_17_11_7 { reg_component0.High_depth_reg_121_THRU_LUT4_0, reg_component0.High_depth_reg[121] }
+clb_pack LT_17_11 { reg_component0.High_depth_reg_121_LC_17_11_7 }
+set_location LT_17_11 17 11
+ble_pack reg_component0.High_depth_reg_80_LC_17_12_0 { reg_component0.High_depth_reg_80_THRU_LUT4_0, reg_component0.High_depth_reg[80] }
+ble_pack reg_component0.High_depth_reg_81_LC_17_12_1 { reg_component0.High_depth_reg_81_THRU_LUT4_0, reg_component0.High_depth_reg[81] }
+ble_pack reg_component0.High_depth_reg_82_LC_17_12_2 { reg_component0.High_depth_reg_82_THRU_LUT4_0, reg_component0.High_depth_reg[82] }
+ble_pack reg_component0.High_depth_reg_83_LC_17_12_3 { reg_component0.High_depth_reg_83_THRU_LUT4_0, reg_component0.High_depth_reg[83] }
+ble_pack reg_component0.High_depth_reg_84_LC_17_12_4 { reg_component0.High_depth_reg_84_THRU_LUT4_0, reg_component0.High_depth_reg[84] }
+ble_pack reg_component0.High_depth_reg_85_LC_17_12_5 { reg_component0.High_depth_reg_85_THRU_LUT4_0, reg_component0.High_depth_reg[85] }
+ble_pack reg_component0.High_depth_reg_86_LC_17_12_6 { reg_component0.High_depth_reg_86_THRU_LUT4_0, reg_component0.High_depth_reg[86] }
+ble_pack reg_component0.High_depth_reg_87_LC_17_12_7 { reg_component0.High_depth_reg_87_THRU_LUT4_0, reg_component0.High_depth_reg[87] }
+clb_pack LT_17_12 { reg_component0.High_depth_reg_80_LC_17_12_0, reg_component0.High_depth_reg_81_LC_17_12_1, reg_component0.High_depth_reg_82_LC_17_12_2, reg_component0.High_depth_reg_83_LC_17_12_3, reg_component0.High_depth_reg_84_LC_17_12_4, reg_component0.High_depth_reg_85_LC_17_12_5, reg_component0.High_depth_reg_86_LC_17_12_6, reg_component0.High_depth_reg_87_LC_17_12_7 }
+set_location LT_17_12 17 12
+ble_pack reg_component0.High_depth_reg_112_LC_17_13_0 { reg_component0.High_depth_reg_112_THRU_LUT4_0, reg_component0.High_depth_reg[112] }
+ble_pack reg_component0.High_depth_reg_113_LC_17_13_1 { reg_component0.High_depth_reg_113_THRU_LUT4_0, reg_component0.High_depth_reg[113] }
+ble_pack reg_component0.High_depth_reg_114_LC_17_13_2 { reg_component0.High_depth_reg_114_THRU_LUT4_0, reg_component0.High_depth_reg[114] }
+ble_pack reg_component0.High_depth_reg_115_LC_17_13_3 { reg_component0.High_depth_reg_115_THRU_LUT4_0, reg_component0.High_depth_reg[115] }
+ble_pack reg_component0.High_depth_reg_116_LC_17_13_4 { reg_component0.High_depth_reg_116_THRU_LUT4_0, reg_component0.High_depth_reg[116] }
+ble_pack reg_component0.High_depth_reg_117_LC_17_13_5 { reg_component0.High_depth_reg_117_THRU_LUT4_0, reg_component0.High_depth_reg[117] }
+ble_pack reg_component0.High_depth_reg_118_LC_17_13_6 { reg_component0.High_depth_reg_118_THRU_LUT4_0, reg_component0.High_depth_reg[118] }
+ble_pack reg_component0.High_depth_reg_119_LC_17_13_7 { reg_component0.High_depth_reg_119_THRU_LUT4_0, reg_component0.High_depth_reg[119] }
+clb_pack LT_17_13 { reg_component0.High_depth_reg_112_LC_17_13_0, reg_component0.High_depth_reg_113_LC_17_13_1, reg_component0.High_depth_reg_114_LC_17_13_2, reg_component0.High_depth_reg_115_LC_17_13_3, reg_component0.High_depth_reg_116_LC_17_13_4, reg_component0.High_depth_reg_117_LC_17_13_5, reg_component0.High_depth_reg_118_LC_17_13_6, reg_component0.High_depth_reg_119_LC_17_13_7 }
+set_location LT_17_13 17 13
+ble_pack reg_component0.Data_in_I2C_o_RNO_2_6_LC_17_14_0 { reg_component0.Data_in_I2C_o_RNO_2[6] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_6_7_LC_17_14_1 { reg_component0.Data_in_I2C_o_RNO_6[7] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_2_7_LC_17_14_2 { reg_component0.Data_in_I2C_o_RNO_2[7] }
+ble_pack reg_component0.High_depth_reg_17_LC_17_14_3 { reg_component0.High_depth_reg_17_THRU_LUT4_0, reg_component0.High_depth_reg[17] }
+ble_pack reg_component0.High_depth_reg_16_LC_17_14_4 { reg_component0.High_depth_reg_16_THRU_LUT4_0, reg_component0.High_depth_reg[16] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_7_0_LC_17_14_5 { reg_component0.Data_in_I2C_o_RNO_7[0] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_3_0_LC_17_14_6 { reg_component0.Data_in_I2C_o_RNO_3[0] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_7_1_LC_17_14_7 { reg_component0.Data_in_I2C_o_RNO_7[1] }
+clb_pack LT_17_14 { reg_component0.Data_in_I2C_o_RNO_2_6_LC_17_14_0, reg_component0.Data_in_I2C_o_RNO_6_7_LC_17_14_1, reg_component0.Data_in_I2C_o_RNO_2_7_LC_17_14_2, reg_component0.High_depth_reg_17_LC_17_14_3, reg_component0.High_depth_reg_16_LC_17_14_4, reg_component0.Data_in_I2C_o_RNO_7_0_LC_17_14_5, reg_component0.Data_in_I2C_o_RNO_3_0_LC_17_14_6, reg_component0.Data_in_I2C_o_RNO_7_1_LC_17_14_7 }
+set_location LT_17_14 17 14
+ble_pack reg_component0.High_depth_reg_100_LC_17_15_0 { reg_component0.High_depth_reg_100_THRU_LUT4_0, reg_component0.High_depth_reg[100] }
+ble_pack reg_component0.High_depth_reg_101_LC_17_15_1 { reg_component0.High_depth_reg_101_THRU_LUT4_0, reg_component0.High_depth_reg[101] }
+ble_pack reg_component0.High_depth_reg_102_LC_17_15_2 { reg_component0.High_depth_reg_102_THRU_LUT4_0, reg_component0.High_depth_reg[102] }
+ble_pack reg_component0.High_depth_reg_103_LC_17_15_3 { reg_component0.High_depth_reg_103_THRU_LUT4_0, reg_component0.High_depth_reg[103] }
+ble_pack reg_component0.High_depth_reg_96_LC_17_15_4 { reg_component0.High_depth_reg_96_THRU_LUT4_0, reg_component0.High_depth_reg[96] }
+ble_pack reg_component0.High_depth_reg_97_LC_17_15_5 { reg_component0.High_depth_reg_97_THRU_LUT4_0, reg_component0.High_depth_reg[97] }
+ble_pack reg_component0.High_depth_reg_98_LC_17_15_6 { reg_component0.High_depth_reg_98_THRU_LUT4_0, reg_component0.High_depth_reg[98] }
+ble_pack reg_component0.High_depth_reg_99_LC_17_15_7 { reg_component0.High_depth_reg_99_THRU_LUT4_0, reg_component0.High_depth_reg[99] }
+clb_pack LT_17_15 { reg_component0.High_depth_reg_100_LC_17_15_0, reg_component0.High_depth_reg_101_LC_17_15_1, reg_component0.High_depth_reg_102_LC_17_15_2, reg_component0.High_depth_reg_103_LC_17_15_3, reg_component0.High_depth_reg_96_LC_17_15_4, reg_component0.High_depth_reg_97_LC_17_15_5, reg_component0.High_depth_reg_98_LC_17_15_6, reg_component0.High_depth_reg_99_LC_17_15_7 }
+set_location LT_17_15 17 15
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_16_LC_17_16_0 { reg_component0.High_depth_reg_0_sqmuxa_16 }
+ble_pack reg_component0.IO_register_31_LC_17_16_2 { reg_component0.IO_register_RNO[31], reg_component0.IO_register[31] }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_7_LC_17_16_3 { reg_component0.High_depth_reg_0_sqmuxa_7 }
+ble_pack reg_component0.IO_registerce_0_12_LC_17_16_4 { reg_component0.IO_registerce_0[12] }
+ble_pack reg_component0.un17_io_register_1_LC_17_16_5 { reg_component0.un17_io_register_1 }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_8_LC_17_16_6 { reg_component0.High_depth_reg_0_sqmuxa_8 }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_10_LC_17_16_7 { reg_component0.High_depth_reg_0_sqmuxa_10 }
+clb_pack LT_17_16 { reg_component0.High_depth_reg_0_sqmuxa_16_LC_17_16_0, reg_component0.IO_register_31_LC_17_16_2, reg_component0.High_depth_reg_0_sqmuxa_7_LC_17_16_3, reg_component0.IO_registerce_0_12_LC_17_16_4, reg_component0.un17_io_register_1_LC_17_16_5, reg_component0.High_depth_reg_0_sqmuxa_8_LC_17_16_6, reg_component0.High_depth_reg_0_sqmuxa_10_LC_17_16_7 }
+set_location LT_17_16 17 16
+ble_pack reg_component0.IO_register_0_sqmuxa_1_LC_17_17_1 { reg_component0.IO_register_0_sqmuxa_1 }
+ble_pack reg_component0.IO_registerce_0_0_LC_17_17_2 { reg_component0.IO_registerce_0[0] }
+ble_pack stack0.Data_out_I2C_o_7_LC_17_17_3 { stack0.Data_out_I2C_o_RNO[7], stack0.Data_out_I2C_o[7] }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_LC_17_17_4 { reg_component0.High_depth_reg_0_sqmuxa }
+ble_pack Warper0.I2Cinst0_RNIMSA21_0_LC_17_17_5 { Warper0.I2Cinst0_RNIMSA21_0 }
+ble_pack stack0.Data_out_I2C_o_1_LC_17_17_6 { stack0.Data_out_I2C_o_RNO[1], stack0.Data_out_I2C_o[1] }
+clb_pack LT_17_17 { reg_component0.IO_register_0_sqmuxa_1_LC_17_17_1, reg_component0.IO_registerce_0_0_LC_17_17_2, stack0.Data_out_I2C_o_7_LC_17_17_3, reg_component0.High_depth_reg_0_sqmuxa_LC_17_17_4, Warper0.I2Cinst0_RNIMSA21_0_LC_17_17_5, stack0.Data_out_I2C_o_1_LC_17_17_6 }
+set_location LT_17_17 17 17
+ble_pack reg_component0.IO_register_24_LC_17_18_0 { reg_component0.IO_register_RNO[24], reg_component0.IO_register[24] }
+ble_pack reg_component0.IO_registerce_0_13_LC_17_18_1 { reg_component0.IO_registerce_0[13] }
+ble_pack reg_component0.IO_register_5_LC_17_18_2 { reg_component0.IO_register_RNO[5], reg_component0.IO_register[5] }
+ble_pack reg_component0.IO_registerce_0_11_LC_17_18_3 { reg_component0.IO_registerce_0[11] }
+ble_pack reg_component0.IO_register_3_LC_17_18_4 { reg_component0.IO_register_RNO[3], reg_component0.IO_register[3] }
+ble_pack reg_component0.IO_register_21_LC_17_18_5 { reg_component0.IO_register_RNO[21], reg_component0.IO_register[21] }
+ble_pack reg_component0.un14_io_register_1_LC_17_18_6 { reg_component0.un14_io_register_1 }
+ble_pack reg_component0.IO_register_e_0_RNO_0_29_LC_17_18_7 { reg_component0.IO_register_e_0_RNO_0[29] }
+clb_pack LT_17_18 { reg_component0.IO_register_24_LC_17_18_0, reg_component0.IO_registerce_0_13_LC_17_18_1, reg_component0.IO_register_5_LC_17_18_2, reg_component0.IO_registerce_0_11_LC_17_18_3, reg_component0.IO_register_3_LC_17_18_4, reg_component0.IO_register_21_LC_17_18_5, reg_component0.un14_io_register_1_LC_17_18_6, reg_component0.IO_register_e_0_RNO_0_29_LC_17_18_7 }
+set_location LT_17_18 17 18
+ble_pack reg_component0.IO_register_e_0_27_LC_17_19_0 { reg_component0.IO_register_e_0_RNO[27], reg_component0.IO_register_e_0[27] }
+ble_pack reg_component0.IO_register_e_0_28_LC_17_19_1 { reg_component0.IO_register_e_0_RNO[28], reg_component0.IO_register_e_0[28] }
+ble_pack reg_component0.IO_register_e_0_29_LC_17_19_2 { reg_component0.IO_register_e_0_RNO[29], reg_component0.IO_register_e_0[29] }
+ble_pack reg_component0.IO_register_e_0_30_LC_17_19_3 { reg_component0.IO_register_e_0_RNO[30], reg_component0.IO_register_e_0[30] }
+ble_pack CONSTANT_ONE_LUT4_LC_17_19_4 { CONSTANT_ONE_LUT4 }
+clb_pack LT_17_19 { reg_component0.IO_register_e_0_27_LC_17_19_0, reg_component0.IO_register_e_0_28_LC_17_19_1, reg_component0.IO_register_e_0_29_LC_17_19_2, reg_component0.IO_register_e_0_30_LC_17_19_3, CONSTANT_ONE_LUT4_LC_17_19_4 }
+set_location LT_17_19 17 19
+ble_pack stack0.Data_out_I2C_o_4_LC_17_20_0 { stack0.Data_out_I2C_o_RNO[4], stack0.Data_out_I2C_o[4] }
+clb_pack LT_17_20 { stack0.Data_out_I2C_o_4_LC_17_20_0 }
+set_location LT_17_20 17 20
+ble_pack Led_o_obuf_2LegalizeSB_DFF_LC_18_1_0 { Led_o_obuf_2ConstOneLUT4, Led_o_obuf_2LegalizeSB_DFF }
+ble_pack Led_o_obuf_3LegalizeSB_DFF_LC_18_1_1 { Led_o_obuf_3ConstOneLUT4, Led_o_obuf_3LegalizeSB_DFF }
+clb_pack LT_18_1 { Led_o_obuf_2LegalizeSB_DFF_LC_18_1_0, Led_o_obuf_3LegalizeSB_DFF_LC_18_1_1 }
+set_location LT_18_1 18 1
+ble_pack reg_component0.Data_in_I2C_o_0_LC_18_8_2 { reg_component0.Data_in_I2C_o_RNO[0], reg_component0.Data_in_I2C_o[0] }
+clb_pack LT_18_8 { reg_component0.Data_in_I2C_o_0_LC_18_8_2 }
+set_location LT_18_8 18 8
+ble_pack reg_component0.Data_in_I2C_o_RNO_1_0_LC_18_9_7 { reg_component0.Data_in_I2C_o_RNO_1[0] }
+clb_pack LT_18_9 { reg_component0.Data_in_I2C_o_RNO_1_0_LC_18_9_7 }
+set_location LT_18_9 18 9
+ble_pack reg_component0.Data_in_I2C_o_RNO_5_0_LC_18_10_1 { reg_component0.Data_in_I2C_o_RNO_5[0] }
+clb_pack LT_18_10 { reg_component0.Data_in_I2C_o_RNO_5_0_LC_18_10_1 }
+set_location LT_18_10 18 10
+ble_pack reg_component0.Data_in_I2C_o_RNO_9_6_LC_18_12_0 { reg_component0.Data_in_I2C_o_RNO_9[6] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_4_6_LC_18_12_1 { reg_component0.Data_in_I2C_o_RNO_4[6] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_10_6_LC_18_12_2 { reg_component0.Data_in_I2C_o_RNO_10[6] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_8_6_LC_18_12_3 { reg_component0.Data_in_I2C_o_RNO_8[6] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_0_6_LC_18_12_4 { reg_component0.Data_in_I2C_o_RNO_0[6] }
+ble_pack reg_component0.Data_in_I2C_o_6_LC_18_12_5 { reg_component0.Data_in_I2C_o_RNO[6], reg_component0.Data_in_I2C_o[6] }
+clb_pack LT_18_12 { reg_component0.Data_in_I2C_o_RNO_9_6_LC_18_12_0, reg_component0.Data_in_I2C_o_RNO_4_6_LC_18_12_1, reg_component0.Data_in_I2C_o_RNO_10_6_LC_18_12_2, reg_component0.Data_in_I2C_o_RNO_8_6_LC_18_12_3, reg_component0.Data_in_I2C_o_RNO_0_6_LC_18_12_4, reg_component0.Data_in_I2C_o_6_LC_18_12_5 }
+set_location LT_18_12 18 12
+ble_pack reg_component0.High_depth_reg_18_LC_18_13_0 { reg_component0.High_depth_reg_18_THRU_LUT4_0, reg_component0.High_depth_reg[18] }
+ble_pack reg_component0.High_depth_reg_19_LC_18_13_1 { reg_component0.High_depth_reg_19_THRU_LUT4_0, reg_component0.High_depth_reg[19] }
+ble_pack reg_component0.High_depth_reg_20_LC_18_13_2 { reg_component0.High_depth_reg_20_THRU_LUT4_0, reg_component0.High_depth_reg[20] }
+ble_pack reg_component0.High_depth_reg_21_LC_18_13_3 { reg_component0.High_depth_reg_21_THRU_LUT4_0, reg_component0.High_depth_reg[21] }
+ble_pack reg_component0.High_depth_reg_22_LC_18_13_4 { reg_component0.High_depth_reg_22_THRU_LUT4_0, reg_component0.High_depth_reg[22] }
+ble_pack reg_component0.High_depth_reg_23_LC_18_13_5 { reg_component0.High_depth_reg_23_THRU_LUT4_0, reg_component0.High_depth_reg[23] }
+clb_pack LT_18_13 { reg_component0.High_depth_reg_18_LC_18_13_0, reg_component0.High_depth_reg_19_LC_18_13_1, reg_component0.High_depth_reg_20_LC_18_13_2, reg_component0.High_depth_reg_21_LC_18_13_3, reg_component0.High_depth_reg_22_LC_18_13_4, reg_component0.High_depth_reg_23_LC_18_13_5 }
+set_location LT_18_13 18 13
+ble_pack reg_component0.High_depth_reg_64_LC_18_14_0 { reg_component0.High_depth_reg_64_THRU_LUT4_0, reg_component0.High_depth_reg[64] }
+ble_pack reg_component0.High_depth_reg_65_LC_18_14_1 { reg_component0.High_depth_reg_65_THRU_LUT4_0, reg_component0.High_depth_reg[65] }
+ble_pack reg_component0.High_depth_reg_66_LC_18_14_2 { reg_component0.High_depth_reg_66_THRU_LUT4_0, reg_component0.High_depth_reg[66] }
+ble_pack reg_component0.High_depth_reg_67_LC_18_14_3 { reg_component0.High_depth_reg_67_THRU_LUT4_0, reg_component0.High_depth_reg[67] }
+ble_pack reg_component0.High_depth_reg_68_LC_18_14_4 { reg_component0.High_depth_reg_68_THRU_LUT4_0, reg_component0.High_depth_reg[68] }
+ble_pack reg_component0.High_depth_reg_69_LC_18_14_5 { reg_component0.High_depth_reg_69_THRU_LUT4_0, reg_component0.High_depth_reg[69] }
+ble_pack reg_component0.High_depth_reg_70_LC_18_14_6 { reg_component0.High_depth_reg_70_THRU_LUT4_0, reg_component0.High_depth_reg[70] }
+ble_pack reg_component0.High_depth_reg_71_LC_18_14_7 { reg_component0.High_depth_reg_71_THRU_LUT4_0, reg_component0.High_depth_reg[71] }
+clb_pack LT_18_14 { reg_component0.High_depth_reg_64_LC_18_14_0, reg_component0.High_depth_reg_65_LC_18_14_1, reg_component0.High_depth_reg_66_LC_18_14_2, reg_component0.High_depth_reg_67_LC_18_14_3, reg_component0.High_depth_reg_68_LC_18_14_4, reg_component0.High_depth_reg_69_LC_18_14_5, reg_component0.High_depth_reg_70_LC_18_14_6, reg_component0.High_depth_reg_71_LC_18_14_7 }
+set_location LT_18_14 18 14
+ble_pack reg_component0.High_depth_reg_50_LC_18_15_0 { reg_component0.High_depth_reg_50_THRU_LUT4_0, reg_component0.High_depth_reg[50] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_6_5_LC_18_15_1 { reg_component0.Data_in_I2C_o_RNO_6[5] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_2_5_LC_18_15_2 { reg_component0.Data_in_I2C_o_RNO_2[5] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_7_6_LC_18_15_3 { reg_component0.Data_in_I2C_o_RNO_7[6] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_3_6_LC_18_15_4 { reg_component0.Data_in_I2C_o_RNO_3[6] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_7_7_LC_18_15_5 { reg_component0.Data_in_I2C_o_RNO_7[7] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_3_7_LC_18_15_6 { reg_component0.Data_in_I2C_o_RNO_3[7] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_6_6_LC_18_15_7 { reg_component0.Data_in_I2C_o_RNO_6[6] }
+clb_pack LT_18_15 { reg_component0.High_depth_reg_50_LC_18_15_0, reg_component0.Data_in_I2C_o_RNO_6_5_LC_18_15_1, reg_component0.Data_in_I2C_o_RNO_2_5_LC_18_15_2, reg_component0.Data_in_I2C_o_RNO_7_6_LC_18_15_3, reg_component0.Data_in_I2C_o_RNO_3_6_LC_18_15_4, reg_component0.Data_in_I2C_o_RNO_7_7_LC_18_15_5, reg_component0.Data_in_I2C_o_RNO_3_7_LC_18_15_6, reg_component0.Data_in_I2C_o_RNO_6_6_LC_18_15_7 }
+set_location LT_18_15 18 15
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_9_LC_18_16_1 { reg_component0.High_depth_reg_0_sqmuxa_9 }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_2_LC_18_16_2 { reg_component0.High_depth_reg_0_sqmuxa_2 }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_6_LC_18_16_3 { reg_component0.High_depth_reg_0_sqmuxa_6 }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_4_LC_18_16_5 { reg_component0.High_depth_reg_0_sqmuxa_4 }
+ble_pack reg_component0.High_depth_reg_32_LC_18_16_6 { reg_component0.High_depth_reg_32_THRU_LUT4_0, reg_component0.High_depth_reg[32] }
+ble_pack reg_component0.High_depth_reg_33_LC_18_16_7 { reg_component0.High_depth_reg_33_THRU_LUT4_0, reg_component0.High_depth_reg[33] }
+clb_pack LT_18_16 { reg_component0.High_depth_reg_0_sqmuxa_9_LC_18_16_1, reg_component0.High_depth_reg_0_sqmuxa_2_LC_18_16_2, reg_component0.High_depth_reg_0_sqmuxa_6_LC_18_16_3, reg_component0.High_depth_reg_0_sqmuxa_4_LC_18_16_5, reg_component0.High_depth_reg_32_LC_18_16_6, reg_component0.High_depth_reg_33_LC_18_16_7 }
+set_location LT_18_16 18 16
+ble_pack reg_component0.un20_io_register_1_LC_18_17_4 { reg_component0.un20_io_register_1 }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_12_LC_18_17_5 { reg_component0.High_depth_reg_0_sqmuxa_12 }
+ble_pack stack0.Data_out_I2C_o_2_LC_18_17_7 { stack0.Data_out_I2C_o_RNO[2], stack0.Data_out_I2C_o[2] }
+clb_pack LT_18_17 { reg_component0.un20_io_register_1_LC_18_17_4, reg_component0.High_depth_reg_0_sqmuxa_12_LC_18_17_5, stack0.Data_out_I2C_o_2_LC_18_17_7 }
+set_location LT_18_17 18 17
+ble_pack stack0.Data_out_I2C_o_3_LC_18_18_0 { stack0.Data_out_I2C_o_RNO[3], stack0.Data_out_I2C_o[3] }
+ble_pack reg_component0.un23_io_register_1_LC_18_18_1 { reg_component0.un23_io_register_1 }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_13_LC_18_18_2 { reg_component0.High_depth_reg_0_sqmuxa_13 }
+ble_pack reg_component0.IO_register_e_0_RNO_1_27_LC_18_18_3 { reg_component0.IO_register_e_0_RNO_1[27] }
+ble_pack reg_component0.IO_register_e_0_RNO_1_28_LC_18_18_4 { reg_component0.IO_register_e_0_RNO_1[28] }
+ble_pack reg_component0.IO_register_e_0_RNO_1_29_LC_18_18_5 { reg_component0.IO_register_e_0_RNO_1[29] }
+ble_pack reg_component0.IO_register_e_0_RNO_1_30_LC_18_18_6 { reg_component0.IO_register_e_0_RNO_1[30] }
+ble_pack reg_component0.IO_register_e_0_RNO_0_30_LC_18_18_7 { reg_component0.IO_register_e_0_RNO_0[30] }
+clb_pack LT_18_18 { stack0.Data_out_I2C_o_3_LC_18_18_0, reg_component0.un23_io_register_1_LC_18_18_1, reg_component0.High_depth_reg_0_sqmuxa_13_LC_18_18_2, reg_component0.IO_register_e_0_RNO_1_27_LC_18_18_3, reg_component0.IO_register_e_0_RNO_1_28_LC_18_18_4, reg_component0.IO_register_e_0_RNO_1_29_LC_18_18_5, reg_component0.IO_register_e_0_RNO_1_30_LC_18_18_6, reg_component0.IO_register_e_0_RNO_0_30_LC_18_18_7 }
+set_location LT_18_18 18 18
+ble_pack reg_component0.Data_in_I2C_o_RNO_11_2_LC_18_19_0 { reg_component0.Data_in_I2C_o_RNO_11[2] }
+ble_pack reg_component0.High_depth_reg_45_LC_18_19_1 { reg_component0.High_depth_reg_45_THRU_LUT4_0, reg_component0.High_depth_reg[45] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_11_3_LC_18_19_2 { reg_component0.Data_in_I2C_o_RNO_11[3] }
+ble_pack reg_component0.High_depth_reg_44_LC_18_19_3 { reg_component0.High_depth_reg_44_THRU_LUT4_0, reg_component0.High_depth_reg[44] }
+ble_pack reg_component0.loop0_un16_high_depth_reg_LC_18_19_4 { reg_component0.loop0.un16_high_depth_reg }
+ble_pack reg_component0.IO_register_e_0_RNO_0_27_LC_18_19_5 { reg_component0.IO_register_e_0_RNO_0[27] }
+ble_pack reg_component0.IO_register_e_0_RNO_0_28_LC_18_19_6 { reg_component0.IO_register_e_0_RNO_0[28] }
+clb_pack LT_18_19 { reg_component0.Data_in_I2C_o_RNO_11_2_LC_18_19_0, reg_component0.High_depth_reg_45_LC_18_19_1, reg_component0.Data_in_I2C_o_RNO_11_3_LC_18_19_2, reg_component0.High_depth_reg_44_LC_18_19_3, reg_component0.loop0_un16_high_depth_reg_LC_18_19_4, reg_component0.IO_register_e_0_RNO_0_27_LC_18_19_5, reg_component0.IO_register_e_0_RNO_0_28_LC_18_19_6 }
+set_location LT_18_19 18 19
+ble_pack Led_o_obuf_4LegalizeSB_DFF_LC_18_20_0 { Led_o_obuf_4ConstOneLUT4, Led_o_obuf_4LegalizeSB_DFF }
+ble_pack reg_component0.Data_in_I2C_o_RNO_5_2_LC_18_20_1 { reg_component0.Data_in_I2C_o_RNO_5[2] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_1_2_LC_18_20_2 { reg_component0.Data_in_I2C_o_RNO_1[2] }
+clb_pack LT_18_20 { Led_o_obuf_4LegalizeSB_DFF_LC_18_20_0, reg_component0.Data_in_I2C_o_RNO_5_2_LC_18_20_1, reg_component0.Data_in_I2C_o_RNO_1_2_LC_18_20_2 }
+set_location LT_18_20 18 20
+ble_pack reg_component0.High_depth_reg_5_LC_20_11_7 { reg_component0.High_depth_reg_5_THRU_LUT4_0, reg_component0.High_depth_reg[5] }
+clb_pack LT_20_11 { reg_component0.High_depth_reg_5_LC_20_11_7 }
+set_location LT_20_11 20 11
+ble_pack reg_component0.Data_in_I2C_o_RNO_11_6_LC_20_12_2 { reg_component0.Data_in_I2C_o_RNO_11[6] }
+ble_pack reg_component0.High_depth_reg_41_LC_20_12_3 { reg_component0.High_depth_reg_41_THRU_LUT4_0, reg_component0.High_depth_reg[41] }
+ble_pack reg_component0.High_depth_reg_40_LC_20_12_5 { reg_component0.High_depth_reg_40_THRU_LUT4_0, reg_component0.High_depth_reg[40] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_6_0_LC_20_12_6 { reg_component0.Data_in_I2C_o_RNO_6[0] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_2_0_LC_20_12_7 { reg_component0.Data_in_I2C_o_RNO_2[0] }
+clb_pack LT_20_12 { reg_component0.Data_in_I2C_o_RNO_11_6_LC_20_12_2, reg_component0.High_depth_reg_41_LC_20_12_3, reg_component0.High_depth_reg_40_LC_20_12_5, reg_component0.Data_in_I2C_o_RNO_6_0_LC_20_12_6, reg_component0.Data_in_I2C_o_RNO_2_0_LC_20_12_7 }
+set_location LT_20_12 20 12
+ble_pack reg_component0.High_depth_reg_48_LC_20_13_0 { reg_component0.High_depth_reg_48_THRU_LUT4_0, reg_component0.High_depth_reg[48] }
+ble_pack reg_component0.High_depth_reg_49_LC_20_13_1 { reg_component0.High_depth_reg_49_THRU_LUT4_0, reg_component0.High_depth_reg[49] }
+ble_pack reg_component0.High_depth_reg_52_LC_20_13_2 { reg_component0.High_depth_reg_52_THRU_LUT4_0, reg_component0.High_depth_reg[52] }
+ble_pack reg_component0.High_depth_reg_55_LC_20_13_3 { reg_component0.High_depth_reg_55_THRU_LUT4_0, reg_component0.High_depth_reg[55] }
+clb_pack LT_20_13 { reg_component0.High_depth_reg_48_LC_20_13_0, reg_component0.High_depth_reg_49_LC_20_13_1, reg_component0.High_depth_reg_52_LC_20_13_2, reg_component0.High_depth_reg_55_LC_20_13_3 }
+set_location LT_20_13 20 13
+ble_pack reg_component0.High_depth_reg_51_LC_20_14_0 { reg_component0.High_depth_reg_51_THRU_LUT4_0, reg_component0.High_depth_reg[51] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_6_4_LC_20_14_1 { reg_component0.Data_in_I2C_o_RNO_6[4] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_2_4_LC_20_14_2 { reg_component0.Data_in_I2C_o_RNO_2[4] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_7_3_LC_20_14_3 { reg_component0.Data_in_I2C_o_RNO_7[3] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_3_3_LC_20_14_4 { reg_component0.Data_in_I2C_o_RNO_3[3] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_7_4_LC_20_14_5 { reg_component0.Data_in_I2C_o_RNO_7[4] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_3_4_LC_20_14_6 { reg_component0.Data_in_I2C_o_RNO_3[4] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_7_5_LC_20_14_7 { reg_component0.Data_in_I2C_o_RNO_7[5] }
+clb_pack LT_20_14 { reg_component0.High_depth_reg_51_LC_20_14_0, reg_component0.Data_in_I2C_o_RNO_6_4_LC_20_14_1, reg_component0.Data_in_I2C_o_RNO_2_4_LC_20_14_2, reg_component0.Data_in_I2C_o_RNO_7_3_LC_20_14_3, reg_component0.Data_in_I2C_o_RNO_3_3_LC_20_14_4, reg_component0.Data_in_I2C_o_RNO_7_4_LC_20_14_5, reg_component0.Data_in_I2C_o_RNO_3_4_LC_20_14_6, reg_component0.Data_in_I2C_o_RNO_7_5_LC_20_14_7 }
+set_location LT_20_14 20 14
+ble_pack reg_component0.High_depth_reg_42_LC_20_15_0 { reg_component0.High_depth_reg_42_THRU_LUT4_0, reg_component0.High_depth_reg[42] }
+ble_pack reg_component0.High_depth_reg_46_LC_20_15_1 { reg_component0.High_depth_reg_46_THRU_LUT4_0, reg_component0.High_depth_reg[46] }
+ble_pack reg_component0.High_depth_reg_47_LC_20_15_2 { reg_component0.High_depth_reg_47_THRU_LUT4_0, reg_component0.High_depth_reg[47] }
+ble_pack reg_component0.High_depth_reg_43_LC_20_15_3 { reg_component0.High_depth_reg_43_THRU_LUT4_0, reg_component0.High_depth_reg[43] }
+clb_pack LT_20_15 { reg_component0.High_depth_reg_42_LC_20_15_0, reg_component0.High_depth_reg_46_LC_20_15_1, reg_component0.High_depth_reg_47_LC_20_15_2, reg_component0.High_depth_reg_43_LC_20_15_3 }
+set_location LT_20_15 20 15
+ble_pack reg_component0.High_depth_reg_120_LC_20_16_0 { reg_component0.High_depth_reg_120_THRU_LUT4_0, reg_component0.High_depth_reg[120] }
+ble_pack reg_component0.High_depth_reg_122_LC_20_16_2 { reg_component0.High_depth_reg_122_THRU_LUT4_0, reg_component0.High_depth_reg[122] }
+ble_pack reg_component0.High_depth_reg_123_LC_20_16_3 { reg_component0.High_depth_reg_123_THRU_LUT4_0, reg_component0.High_depth_reg[123] }
+ble_pack reg_component0.High_depth_reg_124_LC_20_16_4 { reg_component0.High_depth_reg_124_THRU_LUT4_0, reg_component0.High_depth_reg[124] }
+ble_pack reg_component0.High_depth_reg_125_LC_20_16_5 { reg_component0.High_depth_reg_125_THRU_LUT4_0, reg_component0.High_depth_reg[125] }
+ble_pack reg_component0.High_depth_reg_126_LC_20_16_6 { reg_component0.High_depth_reg_126_THRU_LUT4_0, reg_component0.High_depth_reg[126] }
+ble_pack reg_component0.High_depth_reg_127_LC_20_16_7 { reg_component0.High_depth_reg_127_THRU_LUT4_0, reg_component0.High_depth_reg[127] }
+clb_pack LT_20_16 { reg_component0.High_depth_reg_120_LC_20_16_0, reg_component0.High_depth_reg_122_LC_20_16_2, reg_component0.High_depth_reg_123_LC_20_16_3, reg_component0.High_depth_reg_124_LC_20_16_4, reg_component0.High_depth_reg_125_LC_20_16_5, reg_component0.High_depth_reg_126_LC_20_16_6, reg_component0.High_depth_reg_127_LC_20_16_7 }
+set_location LT_20_16 20 16
+ble_pack stack0.Data_out_I2C_o_5_rep1_LC_20_17_0 { stack0.Data_out_I2C_o_5_rep1_RNO, stack0.Data_out_I2C_o_5_rep1 }
+ble_pack stack0.Data_out_I2C_o_fast_fast_5_LC_20_17_1 { stack0.Data_out_I2C_o_fast_fast_RNO[5], stack0.Data_out_I2C_o_fast_fast[5] }
+ble_pack stack0.Data_out_I2C_o_fast_5_rep1_LC_20_17_2 { stack0.Data_out_I2C_o_fast_5_rep1_RNO, stack0.Data_out_I2C_o_fast_5_rep1 }
+ble_pack stack0.Data_out_I2C_o_6_rep2_LC_20_17_3 { stack0.Data_out_I2C_o_6_rep2_RNO, stack0.Data_out_I2C_o_6_rep2 }
+ble_pack stack0.Data_out_I2C_o_5_rep2_LC_20_17_4 { stack0.Data_out_I2C_o_5_rep2_RNO, stack0.Data_out_I2C_o_5_rep2 }
+ble_pack stack0.Data_out_I2C_o_10_LC_20_17_5 { stack0.Data_out_I2C_o_RNO[10], stack0.Data_out_I2C_o[10] }
+ble_pack stack0.Data_out_I2C_o_11_LC_20_17_6 { stack0.Data_out_I2C_o_RNO[11], stack0.Data_out_I2C_o[11] }
+ble_pack stack0.Data_out_I2C_o_12_LC_20_17_7 { stack0.Data_out_I2C_o_RNO[12], stack0.Data_out_I2C_o[12] }
+clb_pack LT_20_17 { stack0.Data_out_I2C_o_5_rep1_LC_20_17_0, stack0.Data_out_I2C_o_fast_fast_5_LC_20_17_1, stack0.Data_out_I2C_o_fast_5_rep1_LC_20_17_2, stack0.Data_out_I2C_o_6_rep2_LC_20_17_3, stack0.Data_out_I2C_o_5_rep2_LC_20_17_4, stack0.Data_out_I2C_o_10_LC_20_17_5, stack0.Data_out_I2C_o_11_LC_20_17_6, stack0.Data_out_I2C_o_12_LC_20_17_7 }
+set_location LT_20_17 20 17
+ble_pack stack0.m14_LC_20_18_0 { stack0.m14 }
+ble_pack stack0.m10_LC_20_18_1 { stack0.m10 }
+ble_pack stack0.m12_LC_20_18_2 { stack0.m12 }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_14_LC_20_18_5 { reg_component0.High_depth_reg_0_sqmuxa_14 }
+ble_pack reg_component0.Data_in_I2C_o_RNO_11_7_LC_20_18_6 { reg_component0.Data_in_I2C_o_RNO_11[7] }
+clb_pack LT_20_18 { stack0.m14_LC_20_18_0, stack0.m10_LC_20_18_1, stack0.m12_LC_20_18_2, reg_component0.High_depth_reg_0_sqmuxa_14_LC_20_18_5, reg_component0.Data_in_I2C_o_RNO_11_7_LC_20_18_6 }
+set_location LT_20_18 20 18
+ble_pack stack0.Data_out_I2C_o_6_rep1_LC_20_19_0 { stack0.Data_out_I2C_o_6_rep1_RNO, stack0.Data_out_I2C_o_6_rep1 }
+ble_pack stack0.Data_out_I2C_o_fast_5_LC_20_19_4 { stack0.Data_out_I2C_o_fast_RNO[5], stack0.Data_out_I2C_o_fast[5] }
+ble_pack stack0.Data_out_I2C_o_0_LC_20_19_7 { stack0.Data_out_I2C_o_RNO[0], stack0.Data_out_I2C_o[0] }
+clb_pack LT_20_19 { stack0.Data_out_I2C_o_6_rep1_LC_20_19_0, stack0.Data_out_I2C_o_fast_5_LC_20_19_4, stack0.Data_out_I2C_o_0_LC_20_19_7 }
+set_location LT_20_19 20 19
+ble_pack stack0.Data_LSB_5_LC_20_20_1 { Warper0.I2Cinst0_RNIMSA21_stack0.Data_LSB_5_REP_LUT4_0, stack0.Data_LSB[5] }
+ble_pack stack0.Data_LSB_1_LC_20_20_4 { Warper0.I2Cinst0_RNIMSA21_0_stack0.Data_LSB_1_REP_LUT4_0, stack0.Data_LSB[1] }
+ble_pack stack0.Data_LSB_2_LC_20_20_6 { stack0.m14_stack0.Data_LSB_2_REP_LUT4_0, stack0.Data_LSB[2] }
+clb_pack LT_20_20 { stack0.Data_LSB_5_LC_20_20_1, stack0.Data_LSB_1_LC_20_20_4, stack0.Data_LSB_2_LC_20_20_6 }
+set_location LT_20_20 20 20
+ble_pack Led_o_obuf_0LegalizeSB_DFF_LC_21_1_0 { Led_o_obuf_0ConstOneLUT4, Led_o_obuf_0LegalizeSB_DFF }
+ble_pack Led_o_obuf_1LegalizeSB_DFF_LC_21_1_1 { Led_o_obuf_1ConstOneLUT4, Led_o_obuf_1LegalizeSB_DFF }
+clb_pack LT_21_1 { Led_o_obuf_0LegalizeSB_DFF_LC_21_1_0, Led_o_obuf_1LegalizeSB_DFF_LC_21_1_1 }
+set_location LT_21_1 21 1
+ble_pack reg_component0.Data_in_I2C_o_RNO_10_3_LC_21_12_0 { reg_component0.Data_in_I2C_o_RNO_10[3] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_8_3_LC_21_12_1 { reg_component0.Data_in_I2C_o_RNO_8[3] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_0_3_LC_21_12_2 { reg_component0.Data_in_I2C_o_RNO_0[3] }
+ble_pack reg_component0.Data_in_I2C_o_3_LC_21_12_3 { reg_component0.Data_in_I2C_o_RNO[3], reg_component0.Data_in_I2C_o[3] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_9_3_LC_21_12_4 { reg_component0.Data_in_I2C_o_RNO_9[3] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_4_3_LC_21_12_5 { reg_component0.Data_in_I2C_o_RNO_4[3] }
+clb_pack LT_21_12 { reg_component0.Data_in_I2C_o_RNO_10_3_LC_21_12_0, reg_component0.Data_in_I2C_o_RNO_8_3_LC_21_12_1, reg_component0.Data_in_I2C_o_RNO_0_3_LC_21_12_2, reg_component0.Data_in_I2C_o_3_LC_21_12_3, reg_component0.Data_in_I2C_o_RNO_9_3_LC_21_12_4, reg_component0.Data_in_I2C_o_RNO_4_3_LC_21_12_5 }
+set_location LT_21_12 21 12
+ble_pack reg_component0.High_depth_reg_54_LC_21_13_0 { reg_component0.High_depth_reg_54_THRU_LUT4_0, reg_component0.High_depth_reg[54] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_6_1_LC_21_13_1 { reg_component0.Data_in_I2C_o_RNO_6[1] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_2_1_LC_21_13_2 { reg_component0.Data_in_I2C_o_RNO_2[1] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_6_2_LC_21_13_3 { reg_component0.Data_in_I2C_o_RNO_6[2] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_2_2_LC_21_13_4 { reg_component0.Data_in_I2C_o_RNO_2[2] }
+ble_pack reg_component0.High_depth_reg_53_LC_21_13_5 { reg_component0.High_depth_reg_53_THRU_LUT4_0, reg_component0.High_depth_reg[53] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_6_3_LC_21_13_6 { reg_component0.Data_in_I2C_o_RNO_6[3] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_2_3_LC_21_13_7 { reg_component0.Data_in_I2C_o_RNO_2[3] }
+clb_pack LT_21_13 { reg_component0.High_depth_reg_54_LC_21_13_0, reg_component0.Data_in_I2C_o_RNO_6_1_LC_21_13_1, reg_component0.Data_in_I2C_o_RNO_2_1_LC_21_13_2, reg_component0.Data_in_I2C_o_RNO_6_2_LC_21_13_3, reg_component0.Data_in_I2C_o_RNO_2_2_LC_21_13_4, reg_component0.High_depth_reg_53_LC_21_13_5, reg_component0.Data_in_I2C_o_RNO_6_3_LC_21_13_6, reg_component0.Data_in_I2C_o_RNO_2_3_LC_21_13_7 }
+set_location LT_21_13 21 13
+ble_pack reg_component0.Data_in_I2C_o_RNO_3_1_LC_21_14_0 { reg_component0.Data_in_I2C_o_RNO_3[1] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_7_2_LC_21_14_1 { reg_component0.Data_in_I2C_o_RNO_7[2] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_3_2_LC_21_14_2 { reg_component0.Data_in_I2C_o_RNO_3[2] }
+ble_pack reg_component0.High_depth_reg_6_LC_21_14_3 { reg_component0.High_depth_reg_6_THRU_LUT4_0, reg_component0.High_depth_reg[6] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_3_5_LC_21_14_5 { reg_component0.Data_in_I2C_o_RNO_3[5] }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_1_LC_21_14_7 { reg_component0.High_depth_reg_0_sqmuxa_1 }
+clb_pack LT_21_14 { reg_component0.Data_in_I2C_o_RNO_3_1_LC_21_14_0, reg_component0.Data_in_I2C_o_RNO_7_2_LC_21_14_1, reg_component0.Data_in_I2C_o_RNO_3_2_LC_21_14_2, reg_component0.High_depth_reg_6_LC_21_14_3, reg_component0.Data_in_I2C_o_RNO_3_5_LC_21_14_5, reg_component0.High_depth_reg_0_sqmuxa_1_LC_21_14_7 }
+set_location LT_21_14 21 14
+ble_pack reg_component0.Data_in_I2C_o_RNO_4_5_LC_21_15_0 { reg_component0.Data_in_I2C_o_RNO_4[5] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_0_5_LC_21_15_1 { reg_component0.Data_in_I2C_o_RNO_0[5] }
+ble_pack reg_component0.Data_in_I2C_o_5_LC_21_15_2 { reg_component0.Data_in_I2C_o_RNO[5], reg_component0.Data_in_I2C_o[5] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_9_5_LC_21_15_4 { reg_component0.Data_in_I2C_o_RNO_9[5] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_10_5_LC_21_15_5 { reg_component0.Data_in_I2C_o_RNO_10[5] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_8_5_LC_21_15_6 { reg_component0.Data_in_I2C_o_RNO_8[5] }
+clb_pack LT_21_15 { reg_component0.Data_in_I2C_o_RNO_4_5_LC_21_15_0, reg_component0.Data_in_I2C_o_RNO_0_5_LC_21_15_1, reg_component0.Data_in_I2C_o_5_LC_21_15_2, reg_component0.Data_in_I2C_o_RNO_9_5_LC_21_15_4, reg_component0.Data_in_I2C_o_RNO_10_5_LC_21_15_5, reg_component0.Data_in_I2C_o_RNO_8_5_LC_21_15_6 }
+set_location LT_21_15 21 15
+ble_pack reg_component0.Data_in_I2C_o_RNO_10_0_LC_21_16_0 { reg_component0.Data_in_I2C_o_RNO_10[0] }
+ble_pack reg_component0.High_depth_reg_63_LC_21_16_1 { reg_component0.High_depth_reg_63_THRU_LUT4_0, reg_component0.High_depth_reg[63] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_10_7_LC_21_16_2 { reg_component0.Data_in_I2C_o_RNO_10[7] }
+ble_pack reg_component0.High_depth_reg_56_LC_21_16_3 { reg_component0.High_depth_reg_56_THRU_LUT4_0, reg_component0.High_depth_reg[56] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_11_0_LC_21_16_4 { reg_component0.Data_in_I2C_o_RNO_11[0] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_9_0_LC_21_16_5 { reg_component0.Data_in_I2C_o_RNO_9[0] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_11_1_LC_21_16_6 { reg_component0.Data_in_I2C_o_RNO_11[1] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_11_5_LC_21_16_7 { reg_component0.Data_in_I2C_o_RNO_11[5] }
+clb_pack LT_21_16 { reg_component0.Data_in_I2C_o_RNO_10_0_LC_21_16_0, reg_component0.High_depth_reg_63_LC_21_16_1, reg_component0.Data_in_I2C_o_RNO_10_7_LC_21_16_2, reg_component0.High_depth_reg_56_LC_21_16_3, reg_component0.Data_in_I2C_o_RNO_11_0_LC_21_16_4, reg_component0.Data_in_I2C_o_RNO_9_0_LC_21_16_5, reg_component0.Data_in_I2C_o_RNO_11_1_LC_21_16_6, reg_component0.Data_in_I2C_o_RNO_11_5_LC_21_16_7 }
+set_location LT_21_16 21 16
+ble_pack reg_component0.High_depth_reg_104_LC_21_17_0 { reg_component0.High_depth_reg_104_THRU_LUT4_0, reg_component0.High_depth_reg[104] }
+ble_pack reg_component0.High_depth_reg_105_LC_21_17_1 { reg_component0.High_depth_reg_105_THRU_LUT4_0, reg_component0.High_depth_reg[105] }
+ble_pack reg_component0.High_depth_reg_106_LC_21_17_2 { reg_component0.High_depth_reg_106_THRU_LUT4_0, reg_component0.High_depth_reg[106] }
+ble_pack reg_component0.High_depth_reg_107_LC_21_17_3 { reg_component0.High_depth_reg_107_THRU_LUT4_0, reg_component0.High_depth_reg[107] }
+ble_pack reg_component0.High_depth_reg_108_LC_21_17_4 { reg_component0.High_depth_reg_108_THRU_LUT4_0, reg_component0.High_depth_reg[108] }
+ble_pack reg_component0.High_depth_reg_109_LC_21_17_5 { reg_component0.High_depth_reg_109_THRU_LUT4_0, reg_component0.High_depth_reg[109] }
+ble_pack reg_component0.High_depth_reg_110_LC_21_17_6 { reg_component0.High_depth_reg_110_THRU_LUT4_0, reg_component0.High_depth_reg[110] }
+ble_pack reg_component0.High_depth_reg_111_LC_21_17_7 { reg_component0.High_depth_reg_111_THRU_LUT4_0, reg_component0.High_depth_reg[111] }
+clb_pack LT_21_17 { reg_component0.High_depth_reg_104_LC_21_17_0, reg_component0.High_depth_reg_105_LC_21_17_1, reg_component0.High_depth_reg_106_LC_21_17_2, reg_component0.High_depth_reg_107_LC_21_17_3, reg_component0.High_depth_reg_108_LC_21_17_4, reg_component0.High_depth_reg_109_LC_21_17_5, reg_component0.High_depth_reg_110_LC_21_17_6, reg_component0.High_depth_reg_111_LC_21_17_7 }
+set_location LT_21_17 21 17
+ble_pack reg_component0.High_depth_reg_57_LC_21_18_0 { reg_component0.High_depth_reg_57_THRU_LUT4_0, reg_component0.High_depth_reg[57] }
+ble_pack reg_component0.High_depth_reg_58_LC_21_18_1 { reg_component0.High_depth_reg_58_THRU_LUT4_0, reg_component0.High_depth_reg[58] }
+ble_pack reg_component0.High_depth_reg_59_LC_21_18_2 { reg_component0.High_depth_reg_59_THRU_LUT4_0, reg_component0.High_depth_reg[59] }
+ble_pack reg_component0.High_depth_reg_60_LC_21_18_3 { reg_component0.High_depth_reg_60_THRU_LUT4_0, reg_component0.High_depth_reg[60] }
+ble_pack reg_component0.High_depth_reg_61_LC_21_18_4 { reg_component0.High_depth_reg_61_THRU_LUT4_0, reg_component0.High_depth_reg[61] }
+ble_pack reg_component0.High_depth_reg_62_LC_21_18_5 { reg_component0.High_depth_reg_62_THRU_LUT4_0, reg_component0.High_depth_reg[62] }
+clb_pack LT_21_18 { reg_component0.High_depth_reg_57_LC_21_18_0, reg_component0.High_depth_reg_58_LC_21_18_1, reg_component0.High_depth_reg_59_LC_21_18_2, reg_component0.High_depth_reg_60_LC_21_18_3, reg_component0.High_depth_reg_61_LC_21_18_4, reg_component0.High_depth_reg_62_LC_21_18_5 }
+set_location LT_21_18 21 18
+ble_pack reg_component0.High_depth_reg_72_LC_21_19_0 { reg_component0.High_depth_reg_72_THRU_LUT4_0, reg_component0.High_depth_reg[72] }
+ble_pack reg_component0.High_depth_reg_73_LC_21_19_1 { reg_component0.High_depth_reg_73_THRU_LUT4_0, reg_component0.High_depth_reg[73] }
+ble_pack reg_component0.High_depth_reg_74_LC_21_19_2 { reg_component0.High_depth_reg_74_THRU_LUT4_0, reg_component0.High_depth_reg[74] }
+ble_pack reg_component0.High_depth_reg_75_LC_21_19_3 { reg_component0.High_depth_reg_75_THRU_LUT4_0, reg_component0.High_depth_reg[75] }
+ble_pack reg_component0.High_depth_reg_76_LC_21_19_4 { reg_component0.High_depth_reg_76_THRU_LUT4_0, reg_component0.High_depth_reg[76] }
+ble_pack reg_component0.High_depth_reg_77_LC_21_19_5 { reg_component0.High_depth_reg_77_THRU_LUT4_0, reg_component0.High_depth_reg[77] }
+ble_pack reg_component0.High_depth_reg_78_LC_21_19_6 { reg_component0.High_depth_reg_78_THRU_LUT4_0, reg_component0.High_depth_reg[78] }
+ble_pack reg_component0.High_depth_reg_79_LC_21_19_7 { reg_component0.High_depth_reg_79_THRU_LUT4_0, reg_component0.High_depth_reg[79] }
+clb_pack LT_21_19 { reg_component0.High_depth_reg_72_LC_21_19_0, reg_component0.High_depth_reg_73_LC_21_19_1, reg_component0.High_depth_reg_74_LC_21_19_2, reg_component0.High_depth_reg_75_LC_21_19_3, reg_component0.High_depth_reg_76_LC_21_19_4, reg_component0.High_depth_reg_77_LC_21_19_5, reg_component0.High_depth_reg_78_LC_21_19_6, reg_component0.High_depth_reg_79_LC_21_19_7 }
+set_location LT_21_19 21 19
+ble_pack stack0.Data_LSB_0_LC_21_20_2 { Warper0.I2Cinst0_RNIT1P31_stack0.Data_LSB_0_REP_LUT4_0, stack0.Data_LSB[0] }
+ble_pack stack0.Data_LSB_4_LC_21_20_3 { stack0.m10_stack0.Data_LSB_4_REP_LUT4_0, stack0.Data_LSB[4] }
+ble_pack stack0.Data_LSB_3_LC_21_20_5 { stack0.m12_stack0.Data_LSB_3_REP_LUT4_0, stack0.Data_LSB[3] }
+clb_pack LT_21_20 { stack0.Data_LSB_0_LC_21_20_2, stack0.Data_LSB_4_LC_21_20_3, stack0.Data_LSB_3_LC_21_20_5 }
+set_location LT_21_20 21 20
+ble_pack reg_component0.High_depth_reg_9_LC_22_12_5 { reg_component0.High_depth_reg_9_THRU_LUT4_0, reg_component0.High_depth_reg[9] }
+clb_pack LT_22_12 { reg_component0.High_depth_reg_9_LC_22_12_5 }
+set_location LT_22_12 22 12
+ble_pack reg_component0.High_depth_reg_0_LC_22_13_0 { reg_component0.High_depth_reg_0_THRU_LUT4_0, reg_component0.High_depth_reg[0] }
+ble_pack reg_component0.High_depth_reg_1_LC_22_13_1 { reg_component0.High_depth_reg_1_THRU_LUT4_0, reg_component0.High_depth_reg[1] }
+ble_pack reg_component0.High_depth_reg_3_LC_22_13_2 { reg_component0.High_depth_reg_3_THRU_LUT4_0, reg_component0.High_depth_reg[3] }
+ble_pack reg_component0.High_depth_reg_4_LC_22_13_3 { reg_component0.High_depth_reg_4_THRU_LUT4_0, reg_component0.High_depth_reg[4] }
+ble_pack reg_component0.High_depth_reg_7_LC_22_13_4 { reg_component0.High_depth_reg_7_THRU_LUT4_0, reg_component0.High_depth_reg[7] }
+clb_pack LT_22_13 { reg_component0.High_depth_reg_0_LC_22_13_0, reg_component0.High_depth_reg_1_LC_22_13_1, reg_component0.High_depth_reg_3_LC_22_13_2, reg_component0.High_depth_reg_4_LC_22_13_3, reg_component0.High_depth_reg_7_LC_22_13_4 }
+set_location LT_22_13 22 13
+ble_pack reg_component0.Data_in_I2C_o_RNO_9_1_LC_22_14_0 { reg_component0.Data_in_I2C_o_RNO_9[1] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_10_1_LC_22_14_1 { reg_component0.Data_in_I2C_o_RNO_10[1] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_8_1_LC_22_14_2 { reg_component0.Data_in_I2C_o_RNO_8[1] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_4_1_LC_22_14_3 { reg_component0.Data_in_I2C_o_RNO_4[1] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_0_1_LC_22_14_4 { reg_component0.Data_in_I2C_o_RNO_0[1] }
+ble_pack reg_component0.Data_in_I2C_o_1_LC_22_14_5 { reg_component0.Data_in_I2C_o_RNO[1], reg_component0.Data_in_I2C_o[1] }
+clb_pack LT_22_14 { reg_component0.Data_in_I2C_o_RNO_9_1_LC_22_14_0, reg_component0.Data_in_I2C_o_RNO_10_1_LC_22_14_1, reg_component0.Data_in_I2C_o_RNO_8_1_LC_22_14_2, reg_component0.Data_in_I2C_o_RNO_4_1_LC_22_14_3, reg_component0.Data_in_I2C_o_RNO_0_1_LC_22_14_4, reg_component0.Data_in_I2C_o_1_LC_22_14_5 }
+set_location LT_22_14 22 14
+ble_pack reg_component0.Data_in_I2C_o_RNO_8_2_LC_22_15_0 { reg_component0.Data_in_I2C_o_RNO_8[2] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_10_2_LC_22_15_1 { reg_component0.Data_in_I2C_o_RNO_10[2] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_9_2_LC_22_15_2 { reg_component0.Data_in_I2C_o_RNO_9[2] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_4_2_LC_22_15_3 { reg_component0.Data_in_I2C_o_RNO_4[2] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_0_2_LC_22_15_4 { reg_component0.Data_in_I2C_o_RNO_0[2] }
+ble_pack reg_component0.Data_in_I2C_o_2_LC_22_15_5 { reg_component0.Data_in_I2C_o_RNO[2], reg_component0.Data_in_I2C_o[2] }
+clb_pack LT_22_15 { reg_component0.Data_in_I2C_o_RNO_8_2_LC_22_15_0, reg_component0.Data_in_I2C_o_RNO_10_2_LC_22_15_1, reg_component0.Data_in_I2C_o_RNO_9_2_LC_22_15_2, reg_component0.Data_in_I2C_o_RNO_4_2_LC_22_15_3, reg_component0.Data_in_I2C_o_RNO_0_2_LC_22_15_4, reg_component0.Data_in_I2C_o_2_LC_22_15_5 }
+set_location LT_22_15 22 15
+ble_pack reg_component0.High_depth_reg_10_LC_22_16_0 { reg_component0.High_depth_reg_10_THRU_LUT4_0, reg_component0.High_depth_reg[10] }
+ble_pack reg_component0.High_depth_reg_12_LC_22_16_2 { reg_component0.High_depth_reg_12_THRU_LUT4_0, reg_component0.High_depth_reg[12] }
+ble_pack reg_component0.High_depth_reg_13_LC_22_16_3 { reg_component0.High_depth_reg_13_THRU_LUT4_0, reg_component0.High_depth_reg[13] }
+ble_pack reg_component0.High_depth_reg_14_LC_22_16_4 { reg_component0.High_depth_reg_14_THRU_LUT4_0, reg_component0.High_depth_reg[14] }
+ble_pack reg_component0.High_depth_reg_15_LC_22_16_5 { reg_component0.High_depth_reg_15_THRU_LUT4_0, reg_component0.High_depth_reg[15] }
+ble_pack reg_component0.High_depth_reg_8_LC_22_16_6 { reg_component0.High_depth_reg_8_THRU_LUT4_0, reg_component0.High_depth_reg[8] }
+ble_pack reg_component0.High_depth_reg_11_LC_22_16_7 { reg_component0.High_depth_reg_11_THRU_LUT4_0, reg_component0.High_depth_reg[11] }
+clb_pack LT_22_16 { reg_component0.High_depth_reg_10_LC_22_16_0, reg_component0.High_depth_reg_12_LC_22_16_2, reg_component0.High_depth_reg_13_LC_22_16_3, reg_component0.High_depth_reg_14_LC_22_16_4, reg_component0.High_depth_reg_15_LC_22_16_5, reg_component0.High_depth_reg_8_LC_22_16_6, reg_component0.High_depth_reg_11_LC_22_16_7 }
+set_location LT_22_16 22 16
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_15_LC_22_17_0 { reg_component0.High_depth_reg_0_sqmuxa_15 }
+ble_pack stack0.Data_out_I2C_o_fast_6_LC_22_17_2 { stack0.Data_out_I2C_o_fast_RNO[6], stack0.Data_out_I2C_o_fast[6] }
+ble_pack stack0.m8_LC_22_17_5 { stack0.m8 }
+ble_pack stack0.Data_out_I2C_o_14_LC_22_17_6 { stack0.Data_out_I2C_o_RNO[14], stack0.Data_out_I2C_o[14] }
+ble_pack reg_component0.High_depth_reg_0_sqmuxa_3_LC_22_17_7 { reg_component0.High_depth_reg_0_sqmuxa_3 }
+clb_pack LT_22_17 { reg_component0.High_depth_reg_0_sqmuxa_15_LC_22_17_0, stack0.Data_out_I2C_o_fast_6_LC_22_17_2, stack0.m8_LC_22_17_5, stack0.Data_out_I2C_o_14_LC_22_17_6, reg_component0.High_depth_reg_0_sqmuxa_3_LC_22_17_7 }
+set_location LT_22_17 22 17
+ble_pack stack0.Data_out_I2C_o_13_LC_22_18_0 { stack0.Data_out_I2C_o_RNO[13], stack0.Data_out_I2C_o[13] }
+ble_pack stack0.Data_out_I2C_o_9_LC_22_18_1 { stack0.Data_out_I2C_o_RNO[9], stack0.Data_out_I2C_o[9] }
+ble_pack stack0.m62_m4_i_m4_ns_1_0_LC_22_18_2 { stack0.m62_m4_i_m4_ns_1_0 }
+ble_pack stack0.m62_m6_bm_LC_22_18_3 { stack0.m62_m6_bm }
+ble_pack stack0.m69_bm_1_LC_22_18_4 { stack0.m69_bm_1 }
+ble_pack stack0.m69_bm_LC_22_18_5 { stack0.m69_bm }
+ble_pack stack0.g0_i_m2_i_a6_1_1_LC_22_18_6 { stack0.g0_i_m2_i_a6_1_1 }
+ble_pack stack0.g0_1_2_LC_22_18_7 { stack0.g0_1_2 }
+clb_pack LT_22_18 { stack0.Data_out_I2C_o_13_LC_22_18_0, stack0.Data_out_I2C_o_9_LC_22_18_1, stack0.m62_m4_i_m4_ns_1_0_LC_22_18_2, stack0.m62_m6_bm_LC_22_18_3, stack0.m69_bm_1_LC_22_18_4, stack0.m69_bm_LC_22_18_5, stack0.g0_i_m2_i_a6_1_1_LC_22_18_6, stack0.g0_1_2_LC_22_18_7 }
+set_location LT_22_18 22 18
+ble_pack Warper0.I2Cinst0_RNIT1P31_LC_22_19_1 { Warper0.I2Cinst0_RNIT1P31 }
+ble_pack stack0.Data_out_I2C_o_8_LC_22_19_2 { stack0.Data_out_I2C_o_RNO[8], stack0.Data_out_I2C_o[8] }
+ble_pack Warper0.I2Cinst0_RNO_8_LC_22_19_3 { Warper0.I2Cinst0_RNO_8 }
+ble_pack Warper0.I2Cinst0_RNO_7_LC_22_19_4 { Warper0.I2Cinst0_RNO_7 }
+ble_pack stack0.m62_m6_e_LC_22_19_5 { stack0.m62_m6_e }
+ble_pack Warper0.etat_s_ret_RNI6KOG_LC_22_19_6 { Warper0.etat_s_ret_RNI6KOG }
+ble_pack Warper0.I2Cinst0_RNO_4_LC_22_19_7 { Warper0.I2Cinst0_RNO_4 }
+clb_pack LT_22_19 { Warper0.I2Cinst0_RNIT1P31_LC_22_19_1, stack0.Data_out_I2C_o_8_LC_22_19_2, Warper0.I2Cinst0_RNO_8_LC_22_19_3, Warper0.I2Cinst0_RNO_7_LC_22_19_4, stack0.m62_m6_e_LC_22_19_5, Warper0.etat_s_ret_RNI6KOG_LC_22_19_6, Warper0.I2Cinst0_RNO_4_LC_22_19_7 }
+set_location LT_22_19 22 19
+ble_pack stack0.m57_LC_22_20_0 { stack0.m57 }
+ble_pack stack0.m62_m6_am_LC_22_20_1 { stack0.m62_m6_am }
+ble_pack Warper0.etat_s_0_1_LC_22_20_2 { stack0.m69_ns_Warper0.etat_s_0_1_REP_LUT4_0, Warper0.etat_s_0[1] }
+ble_pack stack0.m39_bm_LC_22_20_3 { stack0.m39_bm }
+ble_pack stack0.m50_LC_22_20_4 { stack0.m50 }
+ble_pack stack0.g0_1_1_1_LC_22_20_5 { stack0.g0_1_1_1 }
+ble_pack stack0.g0_1_1_LC_22_20_6 { stack0.g0_1_1 }
+ble_pack stack0.isBusy_RNIOERJ_LC_22_20_7 { stack0.isBusy_RNIOERJ }
+clb_pack LT_22_20 { stack0.m57_LC_22_20_0, stack0.m62_m6_am_LC_22_20_1, Warper0.etat_s_0_1_LC_22_20_2, stack0.m39_bm_LC_22_20_3, stack0.m50_LC_22_20_4, stack0.g0_1_1_1_LC_22_20_5, stack0.g0_1_1_LC_22_20_6, stack0.isBusy_RNIOERJ_LC_22_20_7 }
+set_location LT_22_20 22 20
+ble_pack reg_component0.High_depth_reg_2_LC_23_12_5 { reg_component0.High_depth_reg_2_THRU_LUT4_0, reg_component0.High_depth_reg[2] }
+clb_pack LT_23_12 { reg_component0.High_depth_reg_2_LC_23_12_5 }
+set_location LT_23_12 23 12
+ble_pack stack0.Data_out_I2C_o_15_LC_23_13_2 { stack0.m78_stack0.Data_out_I2C_o_15_REP_LUT4_0, stack0.Data_out_I2C_o[15] }
+clb_pack LT_23_13 { stack0.Data_out_I2C_o_15_LC_23_13_2 }
+set_location LT_23_13 23 13
+ble_pack reg_component0.Data_in_I2C_o_RNO_9_4_LC_23_14_0 { reg_component0.Data_in_I2C_o_RNO_9[4] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_4_4_LC_23_14_1 { reg_component0.Data_in_I2C_o_RNO_4[4] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_10_4_LC_23_14_2 { reg_component0.Data_in_I2C_o_RNO_10[4] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_8_4_LC_23_14_3 { reg_component0.Data_in_I2C_o_RNO_8[4] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_0_4_LC_23_14_4 { reg_component0.Data_in_I2C_o_RNO_0[4] }
+ble_pack reg_component0.Data_in_I2C_o_4_LC_23_14_5 { reg_component0.Data_in_I2C_o_RNO[4], reg_component0.Data_in_I2C_o[4] }
+clb_pack LT_23_14 { reg_component0.Data_in_I2C_o_RNO_9_4_LC_23_14_0, reg_component0.Data_in_I2C_o_RNO_4_4_LC_23_14_1, reg_component0.Data_in_I2C_o_RNO_10_4_LC_23_14_2, reg_component0.Data_in_I2C_o_RNO_8_4_LC_23_14_3, reg_component0.Data_in_I2C_o_RNO_0_4_LC_23_14_4, reg_component0.Data_in_I2C_o_4_LC_23_14_5 }
+set_location LT_23_14 23 14
+ble_pack reg_component0.Data_in_I2C_o_RNO_1_4_LC_23_15_1 { reg_component0.Data_in_I2C_o_RNO_1[4] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_11_4_LC_23_15_2 { reg_component0.Data_in_I2C_o_RNO_11[4] }
+clb_pack LT_23_15 { reg_component0.Data_in_I2C_o_RNO_1_4_LC_23_15_1, reg_component0.Data_in_I2C_o_RNO_11_4_LC_23_15_2 }
+set_location LT_23_15 23 15
+ble_pack reg_component0.Data_in_I2C_o_RNO_9_7_LC_23_16_0 { reg_component0.Data_in_I2C_o_RNO_9[7] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_4_7_LC_23_16_1 { reg_component0.Data_in_I2C_o_RNO_4[7] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_0_7_LC_23_16_2 { reg_component0.Data_in_I2C_o_RNO_0[7] }
+ble_pack reg_component0.Data_in_I2C_o_7_LC_23_16_3 { reg_component0.Data_in_I2C_o_RNO[7], reg_component0.Data_in_I2C_o[7] }
+ble_pack reg_component0.Data_in_I2C_o_RNO_8_7_LC_23_16_4 { reg_component0.Data_in_I2C_o_RNO_8[7] }
+ble_pack Warper0.I2Cinst0_RNO_LC_23_16_5 { Warper0.I2Cinst0_RNO }
+clb_pack LT_23_16 { reg_component0.Data_in_I2C_o_RNO_9_7_LC_23_16_0, reg_component0.Data_in_I2C_o_RNO_4_7_LC_23_16_1, reg_component0.Data_in_I2C_o_RNO_0_7_LC_23_16_2, reg_component0.Data_in_I2C_o_7_LC_23_16_3, reg_component0.Data_in_I2C_o_RNO_8_7_LC_23_16_4, Warper0.I2Cinst0_RNO_LC_23_16_5 }
+set_location LT_23_16 23 16
+ble_pack stack0.Enable_LC_23_17_0 { stack0.isBusy_RNIF06O_stack0.Enable_REP_LUT4_0, stack0.Enable }
+ble_pack Warper0.I2C_is_read_RNO_4_LC_23_17_1 { Warper0.I2C_is_read_RNO_4 }
+ble_pack reg_component0.un1_high_depth_reg4218_LC_23_17_2 { reg_component0.un1_high_depth_reg4218 }
+ble_pack Warper0.etat_s_0_3_rep1_LC_23_17_3 { stack0.N_34_i_rep1, Warper0.etat_s_0_3_rep1 }
+ble_pack Warper0.etat_s_4_LC_23_17_4 { stack0.m27, Warper0.etat_s[4] }
+ble_pack Warper0.etat_s_0_1_rep1_LC_23_17_5 { stack0.m69_ns_Warper0.etat_s_0_1_rep1_REP_LUT4_0, Warper0.etat_s_0_1_rep1 }
+ble_pack stack0.isBusy_LC_23_17_6 { stack0.isBusy_RNO, stack0.isBusy }
+ble_pack Warper0.etat_s_0_2_rep1_LC_23_17_7 { stack0.m62_m6_ns_Warper0.etat_s_0_2_rep1_REP_LUT4_0, Warper0.etat_s_0_2_rep1 }
+clb_pack LT_23_17 { stack0.Enable_LC_23_17_0, Warper0.I2C_is_read_RNO_4_LC_23_17_1, reg_component0.un1_high_depth_reg4218_LC_23_17_2, Warper0.etat_s_0_3_rep1_LC_23_17_3, Warper0.etat_s_4_LC_23_17_4, Warper0.etat_s_0_1_rep1_LC_23_17_5, stack0.isBusy_LC_23_17_6, Warper0.etat_s_0_2_rep1_LC_23_17_7 }
+set_location LT_23_17 23 17
+ble_pack stack0.g0_i_m2_i_a6_LC_23_18_0 { stack0.g0_i_m2_i_a6 }
+ble_pack Warper0.etat_s_0_fast_1_LC_23_18_1 { stack0.m69_ns_Warper0.etat_s_0_fast_1_REP_LUT4_0, Warper0.etat_s_0_fast[1] }
+ble_pack Warper0.etat_s_ret_2_RNO_2_LC_23_18_2 { Warper0.etat_s_ret_2_RNO_2 }
+ble_pack Warper0.etat_s_ret_2_RNO_0_LC_23_18_3 { Warper0.etat_s_ret_2_RNO_0 }
+ble_pack stack0.m69_am_LC_23_18_4 { stack0.m69_am }
+ble_pack stack0.m69_ns_LC_23_18_5 { stack0.m69_ns }
+ble_pack Warper0.etat_s_ret_2_LC_23_18_6 { Warper0.etat_s_ret_2_RNO, Warper0.etat_s_ret_2 }
+ble_pack stack0.m69_am_1_LC_23_18_7 { stack0.m69_am_1 }
+clb_pack LT_23_18 { stack0.g0_i_m2_i_a6_LC_23_18_0, Warper0.etat_s_0_fast_1_LC_23_18_1, Warper0.etat_s_ret_2_RNO_2_LC_23_18_2, Warper0.etat_s_ret_2_RNO_0_LC_23_18_3, stack0.m69_am_LC_23_18_4, stack0.m69_ns_LC_23_18_5, Warper0.etat_s_ret_2_LC_23_18_6, stack0.m69_am_1_LC_23_18_7 }
+set_location LT_23_18 23 18
+ble_pack Warper0.etat_s_0_fast_RNIBELN_2_LC_23_19_0 { Warper0.etat_s_0_fast_RNIBELN[2] }
+ble_pack Warper0.I2Cinst0_RNIMSA21_LC_23_19_1 { Warper0.I2Cinst0_RNIMSA21 }
+ble_pack Warper0.etat_s_0_0_LC_23_19_2 { stack0.g0_1, Warper0.etat_s_0[0] }
+ble_pack Warper0.etat_s_0_3_LC_23_19_3 { stack0.N_34_i, Warper0.etat_s_0[3] }
+ble_pack stack0.m62_m6_ns_LC_23_19_4 { stack0.m62_m6_ns }
+ble_pack Warper0.etat_s_0_2_LC_23_19_5 { stack0.m62_m6_ns_Warper0.etat_s_0_2_REP_LUT4_0, Warper0.etat_s_0[2] }
+ble_pack Warper0.etat_s_ret_1_LC_23_19_6 { stack0.etat_s_ns_i[1], Warper0.etat_s_ret_1 }
+ble_pack stack0.m78_LC_23_19_7 { stack0.m78 }
+clb_pack LT_23_19 { Warper0.etat_s_0_fast_RNIBELN_2_LC_23_19_0, Warper0.I2Cinst0_RNIMSA21_LC_23_19_1, Warper0.etat_s_0_0_LC_23_19_2, Warper0.etat_s_0_3_LC_23_19_3, stack0.m62_m6_ns_LC_23_19_4, Warper0.etat_s_0_2_LC_23_19_5, Warper0.etat_s_ret_1_LC_23_19_6, stack0.m78_LC_23_19_7 }
+set_location LT_23_19 23 19
+ble_pack stack0.m39_ns_LC_23_20_0 { stack0.m39_ns }
+ble_pack stack0.m40_LC_23_20_1 { stack0.m40 }
+ble_pack Warper0.etat_s_ret_LC_23_20_2 { Warper0.etat_s_ret_RNO, Warper0.etat_s_ret }
+ble_pack stack0.m45_LC_23_20_3 { stack0.m45 }
+ble_pack Warper0.etat_s_0_RNIUMO5_2_LC_23_20_4 { Warper0.etat_s_0_RNIUMO5[2] }
+ble_pack Warper0.I2Cinst0_RNO_3_LC_23_20_5 { Warper0.I2Cinst0_RNO_3 }
+ble_pack stack0.m28_LC_23_20_6 { stack0.m28 }
+ble_pack stack0.m33_LC_23_20_7 { stack0.m33 }
+clb_pack LT_23_20 { stack0.m39_ns_LC_23_20_0, stack0.m40_LC_23_20_1, Warper0.etat_s_ret_LC_23_20_2, stack0.m45_LC_23_20_3, Warper0.etat_s_0_RNIUMO5_2_LC_23_20_4, Warper0.I2Cinst0_RNO_3_LC_23_20_5, stack0.m28_LC_23_20_6, stack0.m33_LC_23_20_7 }
+set_location LT_23_20 23 20
+ble_pack reg_component0.High_depth_reg_88_LC_24_16_0 { reg_component0.High_depth_reg_88_THRU_LUT4_0, reg_component0.High_depth_reg[88] }
+ble_pack reg_component0.High_depth_reg_90_LC_24_16_2 { reg_component0.High_depth_reg_90_THRU_LUT4_0, reg_component0.High_depth_reg[90] }
+ble_pack reg_component0.High_depth_reg_91_LC_24_16_3 { reg_component0.High_depth_reg_91_THRU_LUT4_0, reg_component0.High_depth_reg[91] }
+ble_pack reg_component0.High_depth_reg_92_LC_24_16_4 { reg_component0.High_depth_reg_92_THRU_LUT4_0, reg_component0.High_depth_reg[92] }
+ble_pack reg_component0.High_depth_reg_93_LC_24_16_5 { reg_component0.High_depth_reg_93_THRU_LUT4_0, reg_component0.High_depth_reg[93] }
+ble_pack reg_component0.High_depth_reg_94_LC_24_16_6 { reg_component0.High_depth_reg_94_THRU_LUT4_0, reg_component0.High_depth_reg[94] }
+clb_pack LT_24_16 { reg_component0.High_depth_reg_88_LC_24_16_0, reg_component0.High_depth_reg_90_LC_24_16_2, reg_component0.High_depth_reg_91_LC_24_16_3, reg_component0.High_depth_reg_92_LC_24_16_4, reg_component0.High_depth_reg_93_LC_24_16_5, reg_component0.High_depth_reg_94_LC_24_16_6 }
+set_location LT_24_16 24 16
+ble_pack Warper0.I2C_is_read_RNO_5_LC_24_17_0 { Warper0.I2C_is_read_RNO_5 }
+ble_pack Warper0.I2C_is_read_RNO_2_LC_24_17_1 { Warper0.I2C_is_read_RNO_2 }
+ble_pack stack0.m54_am_LC_24_17_2 { stack0.m54_am }
+ble_pack stack0.m54_ns_LC_24_17_3 { stack0.m54_ns }
+ble_pack stack0.m54_bm_LC_24_17_4 { stack0.m54_bm }
+ble_pack Warper0.etat_s_RNIJQN13_4_LC_24_17_5 { Warper0.etat_s_RNIJQN13[4] }
+ble_pack Warper0.I2C_is_read_RNO_0_LC_24_17_6 { Warper0.I2C_is_read_RNO_0 }
+ble_pack Warper0.I2C_is_read_RNO_1_LC_24_17_7 { Warper0.I2C_is_read_RNO_1 }
+clb_pack LT_24_17 { Warper0.I2C_is_read_RNO_5_LC_24_17_0, Warper0.I2C_is_read_RNO_2_LC_24_17_1, stack0.m54_am_LC_24_17_2, stack0.m54_ns_LC_24_17_3, stack0.m54_bm_LC_24_17_4, Warper0.etat_s_RNIJQN13_4_LC_24_17_5, Warper0.I2C_is_read_RNO_0_LC_24_17_6, Warper0.I2C_is_read_RNO_1_LC_24_17_7 }
+set_location LT_24_17 24 17
+ble_pack Warper0.etat_s_ret_2_RNO_3_LC_24_18_0 { Warper0.etat_s_ret_2_RNO_3 }
+ble_pack Warper0.etat_s_0_fast_2_LC_24_18_1 { stack0.m62_m6_ns_Warper0.etat_s_0_fast_2_REP_LUT4_0, Warper0.etat_s_0_fast[2] }
+ble_pack Warper0.I2C_is_read_RNO_3_LC_24_18_2 { Warper0.I2C_is_read_RNO_3 }
+ble_pack Warper0.etat_s_ret_2_RNO_5_LC_24_18_3 { Warper0.etat_s_ret_2_RNO_5 }
+ble_pack Warper0.etat_s_ret_2_RNO_4_LC_24_18_4 { Warper0.etat_s_ret_2_RNO_4 }
+ble_pack stack0.m2_LC_24_18_5 { stack0.m2 }
+ble_pack stack0.isBusy_RNIF06O_LC_24_18_6 { stack0.isBusy_RNIF06O }
+ble_pack Warper0.etat_s_ret_2_RNO_1_LC_24_18_7 { Warper0.etat_s_ret_2_RNO_1 }
+clb_pack LT_24_18 { Warper0.etat_s_ret_2_RNO_3_LC_24_18_0, Warper0.etat_s_0_fast_2_LC_24_18_1, Warper0.I2C_is_read_RNO_3_LC_24_18_2, Warper0.etat_s_ret_2_RNO_5_LC_24_18_3, Warper0.etat_s_ret_2_RNO_4_LC_24_18_4, stack0.m2_LC_24_18_5, stack0.isBusy_RNIF06O_LC_24_18_6, Warper0.etat_s_ret_2_RNO_1_LC_24_18_7 }
+set_location LT_24_18 24 18
+ble_pack Warper0.I2Cinst0_RNO_5_LC_24_19_0 { Warper0.I2Cinst0_RNO_5 }
+ble_pack Warper0.I2Cinst0_RNO_6_LC_24_19_1 { Warper0.I2Cinst0_RNO_6 }
+ble_pack Warper0.I2Cinst0_RNO_0_LC_24_19_2 { Warper0.I2Cinst0_RNO_0 }
+ble_pack Warper0.I2Cinst0_RNO_1_LC_24_19_3 { Warper0.I2Cinst0_RNO_1 }
+ble_pack Warper0.I2Cinst0_RNO_2_LC_24_19_4 { Warper0.I2Cinst0_RNO_2 }
+ble_pack Warper0.I2C_is_read_LC_24_19_5 { Warper0.I2C_is_read_RNO, Warper0.I2C_is_read }
+ble_pack stack0.g0_i_m2_i_a6_2_0_LC_24_19_6 { stack0.g0_i_m2_i_a6_2_0 }
+clb_pack LT_24_19 { Warper0.I2Cinst0_RNO_5_LC_24_19_0, Warper0.I2Cinst0_RNO_6_LC_24_19_1, Warper0.I2Cinst0_RNO_0_LC_24_19_2, Warper0.I2Cinst0_RNO_1_LC_24_19_3, Warper0.I2Cinst0_RNO_2_LC_24_19_4, Warper0.I2C_is_read_LC_24_19_5, stack0.g0_i_m2_i_a6_2_0_LC_24_19_6 }
+set_location LT_24_19 24 19
+ble_pack stack0.m41_LC_24_20_0 { stack0.m41 }
+ble_pack stack0.m43_LC_24_20_1 { stack0.m43 }
+ble_pack stack0.m35_LC_24_20_2 { stack0.m35 }
+ble_pack stack0.m47_LC_24_20_3 { stack0.m47 }
+ble_pack Warper0.I2Cinst0_RNI1E79_LC_24_20_4 { Warper0.I2Cinst0_RNI1E79 }
+ble_pack stack0.m32_0_LC_24_20_5 { stack0.m32_0 }
+ble_pack stack0.m32_LC_24_20_6 { stack0.m32 }
+ble_pack Warper0.etat_s_0_fast_3_LC_24_20_7 { stack0.N_34_i_fast, Warper0.etat_s_0_fast[3] }
+clb_pack LT_24_20 { stack0.m41_LC_24_20_0, stack0.m43_LC_24_20_1, stack0.m35_LC_24_20_2, stack0.m47_LC_24_20_3, Warper0.I2Cinst0_RNI1E79_LC_24_20_4, stack0.m32_0_LC_24_20_5, stack0.m32_LC_24_20_6, Warper0.etat_s_0_fast_3_LC_24_20_7 }
+set_location LT_24_20 24 20
+set_location reg_component0.COUNTER_RNILKKN4_0[8] 6 0
+set_location stack0.isBusy_RNIF06O_0 12 0
+set_io but_i[3] 31
+set_io Led_o[1] 19
+set_io but_i[2] 26
+set_io SCL_io 46
+set_io Led_o[4] 23
+set_io Led_o[0] 18
+set_io Led_RGB_o[2] 39
+set_io but_i[1] 28
+set_io Led_o[3] 21
+set_io Led_RGB_o[1] 40
+set_io but_i[0] 25
+set_io SDA_io 9
+set_io Led_o[2] 20
+set_io Led_RGB_o[0] 41

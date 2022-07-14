@@ -1,0 +1,34 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:45:10
+
+* File Generated:     Mar 16 2021 15:20:10
+
+* Purpose:            Router runtime info
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\sbt\netlist\oadb-Technoshield_top C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40TH4K.lib D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\sbt\outputs\packer\Technoshield_top_pk.sdc --outdir D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\sbt\outputs\router --sdf_file D:/Temp/TechnoShieldII/Compile_Files/h/h_Implmnt\sbt\outputs\simulation_netlist\Technoshield_top_sbt.sdf --pin_permutation 
+I1203: Reading Design Technoshield_top
+I1202: Reading Architecture of device iCE5LP1K
+Warning-1411: No clock is reaching the reference clock pin 'SBCLKI' of  instance 'Warper0.I2Cinst0'. So, no gen clock will be inferred at output of this instance
+Info-1409: Inferred clock at Warper0.I2Cinst0/SCLO
+Info-1409: Inferred clock at HFOSCinst0/CLKHF
+I1209: Started routing
+I1223: Total Nets : 561 
+I1212: Iteration  1 :    53 unrouted : 2 seconds
+I1212: Iteration  2 :     7 unrouted : 1 seconds
+I1212: Iteration  3 :     2 unrouted : 1 seconds
+I1212: Iteration  4 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+I1206: Completed routing
+I1204: Writing Design Technoshield_top
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 13 seconds

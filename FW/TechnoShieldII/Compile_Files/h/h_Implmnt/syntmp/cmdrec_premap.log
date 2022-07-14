@@ -1,0 +1,13 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt   -part iCE5LP1K  -package SG48    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synlog\report\h_premap.xml  -oedif  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h.edf  -conchk_prepass  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h_cck.rpt   -autoconstraint  -freq 1.000   D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synwork\h_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synwork\h_prem.srd  -qsap  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h.sap  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -ologparam  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\syntmp\h.plg  -osyn  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synwork\h_prem.srd  -prjdir  D:\Temp\TechnoShieldII\Compile_Files\h\  -prjname  h_syn  -log  D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synlog\h_premap.srr 
+rc:1 success:1 runtime:1
+file:D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h.edf|io:o|time:0|size:0|exec:0
+file:D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h_cck.rpt|io:o|time:1615921991|size:3638|exec:0
+file:D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synwork\h_mult.srs|io:i|time:1615921990|size:5102|exec:0
+file:D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synwork\h_prem.srd|io:o|time:1615921990|size:24014|exec:0
+file:D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h.sap|io:o|time:1615921991|size:2198|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1611766711|size:224837|exec:0
+file:D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\syntmp\h.plg|io:o|time:1615921990|size:0|exec:0
+file:D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synwork\h_prem.srd|io:o|time:1615921990|size:24014|exec:0
+file:D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\synlog\h_premap.srr|io:o|time:1615921991|size:5023|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1611766705|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1611766707|size:32355840|exec:1

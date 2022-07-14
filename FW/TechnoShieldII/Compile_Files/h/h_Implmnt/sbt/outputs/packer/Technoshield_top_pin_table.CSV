@@ -1,0 +1,70 @@
+* ******************************************************************************
+
+* iCEcube Pin Table
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:31:51
+
+* File Generated:     Mar 16 2021 15:20:09
+
+* Purpose:            Detailed IO and package pin info
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Device, iCE5LP1K
+Package, SG48
+
+Pin Number, Pin Type Name, Signal Name, Direction, Global Buffer, IO Standard, Pull Up, IO Function, IO Bank, Glitch Logic 
+---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, 
+1, VCCIO_2, not used, , , , , , bottomBank
+2, PIO, not used, , , , , , bottomBank
+3, PIO, not used, , , , , , bottomBank
+4, PIO, not used, , , , , , bottomBank
+5, VCC, not used, , , , , , UnknownBank
+6, PIO, not used, , , , , , bottomBank
+7, CDONE, not used, , , , , , bottomBank
+8, CRESET_B, not used, , , , , , bottomBank
+9, PIO, SDA_io, InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, bottomBank, SDA_io_iobufAndLUT4(14:1:0) -> 9(15:0:0)
+10, PIO, not used, , , , , , bottomBank
+11, PIO, not used, , , , , , bottomBank
+12, PIO, not used, , , , , , bottomBank
+13, PIO, not used, , , , , , bottomBank
+14, SPI_SO, not used, , , , , , bottomBank
+15, SPI_SCK, not used, , , , , , bottomBank
+16, SPI_SS_B, not used, , , , , , bottomBank
+17, SPI_SI, not used, , , , , , bottomBank
+18, PIO, Led_o[0], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, Led_o_obuf_0LegalizeSB_DFF(21:1:0) -> 18(22:0:1)
+19, PIO, Led_o[1], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, Led_o_obuf_1LegalizeSB_DFF(21:1:1) -> 19(21:0:1)
+20, PIO_GBIN, Led_o[2], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, Led_o_obuf_2LegalizeSB_DFF(18:1:0) -> 20(19:0:1)
+21, PIO, Led_o[3], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, Led_o_obuf_3LegalizeSB_DFF(18:1:1) -> 21(18:0:1)
+22, VDDIO_SPI, not used, , , , , , bottomBank
+23, PIO, Led_o[4], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, Led_o_obuf_4LegalizeSB_DFF(18:20:0) -> 23(19:21:0)
+24, VPP, not used, , , , , , topBank
+25, PIO, but_i[0], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+26, PIO, but_i[2], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+27, PIO, not used, , , , , , topBank
+28, PIO, but_i[1], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+29, AVDD_TOP, not used, , , , , , UnknownBank
+30, VCC, not used, , , , , , UnknownBank
+31, PIO, but_i[3], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+32, PIO, not used, , , , , , topBank
+33, VCCIO_0, not used, , , , , , topBank
+34, PIO, not used, , , , , , topBank
+35, PIO_GBIN, not used, , , , , , topBank
+36, PIO, not used, , , , , , topBank
+37, PIO_GBIN, not used, , , , , , topBank
+38, PIO, not used, , , , , , topBank
+39, PIO_RGB, Led_RGB_o[2], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable (Open-drain IO), topBank, OD2LegalizeSB_DFF(5:20:0) -> 39(6:21:0)
+40, PIO_RGB, Led_RGB_o[1], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable (Open-drain IO), topBank, OD1LegalizeSB_DFF(4:20:1) -> 40(5:21:0)
+41, PIO_RGB, Led_RGB_o[0], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable (Open-drain IO), topBank, OD0LegalizeSB_DFF(4:20:0) -> 41(4:21:0)
+42, PIO, not used, , , , , , topBank
+43, PIO, not used, , , , , , topBank
+44, PIO_GBIN, not used, , , , , , bottomBank
+45, PIO, not used, , , , , , bottomBank
+46, PIO, SCL_io, Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+47, PIO, not used, , , , , , bottomBank
+48, PIO, not used, , , , , , bottomBank
+Total Number of Used Pins, 14

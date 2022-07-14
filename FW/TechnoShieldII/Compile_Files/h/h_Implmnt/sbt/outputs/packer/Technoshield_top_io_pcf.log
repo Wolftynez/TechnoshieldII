@@ -1,0 +1,14 @@
+INPUT  but_i[3] 	 location (16, 21, 1) 	 31 	 
+OUTPUT Led_o[1] 	 location (21, 0, 1) 	 19 	 
+INPUT  but_i[2] 	 location (18, 21, 0) 	 26 	 
+INPUT  SCL_io 	 location (5, 0, 0) 	 46 	 
+OUTPUT Led_o[4] 	 location (19, 21, 0) 	 23 	 
+OUTPUT Led_o[0] 	 location (22, 0, 1) 	 18 	 
+INOUT Led_RGB_o[2] 	 location (6, 21, 0) 	 39 	 
+INPUT  but_i[1] 	 location (17, 21, 0) 	 28 	 
+OUTPUT Led_o[3] 	 location (18, 0, 1) 	 21 	 
+INOUT Led_RGB_o[1] 	 location (5, 21, 0) 	 40 	 
+INPUT  but_i[0] 	 location (19, 21, 1) 	 25 	 
+INOUT SDA_io 	 location (15, 0, 0) 	 9 	 
+OUTPUT Led_o[2] 	 location (19, 0, 1) 	 20 	 
+INOUT Led_RGB_o[0] 	 location (4, 21, 0) 	 41 	 

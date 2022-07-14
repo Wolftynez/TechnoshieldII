@@ -1,0 +1,31 @@
+---------------------------------------
+Resource Usage Report for Technoshield_top 
+
+Mapping to part: ice5lp1ksg48
+Cell usage:
+GND             3 uses
+SB_CARRY        22 uses
+SB_DFF          45 uses
+SB_DFFE         180 uses
+SB_DFFER        1 use
+SB_DFFSR        24 uses
+SB_GB           2 uses
+SB_HFOSC        1 use
+SB_I2C          1 use
+VCC             3 uses
+SB_LUT4         333 uses
+
+I/O ports: 14
+I/O primitives: 14
+SB_IO          11 uses
+SB_IO_OD       3 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   250 (25%)
+
+@S |Mapping Summary:
+Total  LUTs: 333 (33%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 333 = 333 
+

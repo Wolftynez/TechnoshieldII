@@ -1,0 +1,24 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Removing sequential instance Warper0.etat_s[1] (in view: work.Technoshield_top(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Removing sequential instance Warper0.etat_s[0] (in view: work.Technoshield_top(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Removing sequential instance Warper0.etat_s[3] (in view: work.Technoshield_top(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Removing sequential instance Warper0.etat_s[2] (in view: work.Technoshield_top(behavioral)) because it does not drive other instances.
+@N: FX271 :"d:\temp\technoshieldii\top\reg_component.vhd":51:7:51:25|Replicating instance reg_component0.counter8lto23_0 (in view: work.Technoshield_top(behavioral)) with 25 loads 1 time to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\stack.vhd":43:3:43:4|Replicating instance stack0.Data_out_I2C_o[6] (in view: work.Technoshield_top(behavioral)) with 61 loads 3 times to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\stack.vhd":43:3:43:4|Replicating instance stack0.Data_out_I2C_o[5] (in view: work.Technoshield_top(behavioral)) with 101 loads 3 times to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Replicating instance Warper0.etat_s_0[2] (in view: work.Technoshield_top(behavioral)) with 21 loads 2 times to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Replicating instance Warper0.etat_s_0[3] (in view: work.Technoshield_top(behavioral)) with 27 loads 2 times to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\i2c_warper.vhd":185:2:185:3|Replicating instance Warper0.etat_s_0[1] (in view: work.Technoshield_top(behavioral)) with 22 loads 2 times to improve timing.
+@N: FX271 :"d:\temp\technoshieldii\top\stack.vhd":43:3:43:4|Replicating instance stack0.Data_out_I2C_o_fast[5] (in view: work.Technoshield_top(behavioral)) with 19 loads 2 times to improve timing.
+@N: FX1017 :|SB_GB inserted on the net N_90_mux_i.
+@N: FX1017 :|SB_GB inserted on the net reg_component0.counter8lto23_0_iso.
+@N: MT611 :|Automatically generated clock Technoshield_top|clk_inferred_clock is not used and is being removed
+@N: MT617 :|Automatically generated clock Warper_i2c|etat_s_derived_clock[3] has lost its master clock Technoshield_top|clk_inferred_clock and is being removed
+@N: MT611 :|Automatically generated clock Warper_i2c|etat_s_derived_clock[3] is not used and is being removed
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\Temp\TechnoShieldII\Compile_Files\h\h_Implmnt\h.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

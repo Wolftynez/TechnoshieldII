@@ -1,0 +1,236 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/temp/technoShieldII/reg_component
+Ereg_c
+Z1 w1613511381
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 127
+R0
+Z6 8reg_component.vhd
+Z7 Freg_component.vhd
+l0
+Z8 L12 1
+VI]S>iAl@l:PH^O2h4MK550
+!s100 khEE;AS@ZmoZP6SOnL;]l0
+Z9 OT;C;2020.3;71
+32
+Z10 !s110 1613511943
+!i10b 1
+Z11 !s108 1613511943.000000
+Z12 !s90 -reportprogress|300|reg_component.vhd|
+Z13 !s107 reg_component.vhd|
+!i113 1
+o-O0
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 5 reg_c 0 22 I]S>iAl@l:PH^O2h4MK550
+!i122 127
+l32
+L25 53
+V?28lh25S8VJ@bUWk26[i^2
+!s100 PFf7NfU>4JQD]CHSDdZL12
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+o-O0
+R14
+Ereg_component
+Z15 w1613590161
+R2
+R3
+R4
+R5
+!i122 271
+R0
+R6
+R7
+l0
+R8
+VJgC8D3TcV58[lede8MVe13
+!s100 m7UdfCAJ`WQ`RVoz[z4m23
+R9
+32
+Z16 !s110 1613590169
+!i10b 1
+Z17 !s108 1613590169.000000
+R12
+R13
+!i113 1
+o-O0
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 13 reg_component 0 22 JgC8D3TcV58[lede8MVe13
+!i122 271
+l35
+L24 51
+VM=]_oY;DH@9g`PCJHC5XV0
+!s100 kiYD;;Q5@JV65_PkYgonn0
+R9
+32
+R16
+!i10b 1
+R17
+R12
+R13
+!i113 1
+o-O0
+R14
+Ereg_component_tb
+Z18 w1613586738
+R2
+R3
+R4
+R5
+!i122 272
+R0
+Z19 8tb/reg_component_tb.vhd
+Z20 Ftb/reg_component_tb.vhd
+l0
+Z21 L33 1
+VE89W0BK2kehKnAF:hAZ<S3
+!s100 <@PMWNlfDVI96Km3YFR6o2
+R9
+32
+R16
+!i10b 1
+R17
+Z22 !s90 -reportprogress|300|tb/reg_component_tb.vhd|
+Z23 !s107 tb/reg_component_tb.vhd|
+!i113 1
+o-O0
+R14
+Areg_component_a0
+R2
+R3
+R4
+R5
+DEx4 work 16 reg_component_tb 0 22 E89W0BK2kehKnAF:hAZ<S3
+!i122 272
+l59
+L42 74
+V`cO=dd26?ZJ>[ZDom`:l`1
+!s100 1ECF^6mPDJMKBL2;MC1]]3
+R9
+32
+R16
+!i10b 1
+R17
+R22
+R23
+!i113 1
+o-O0
+R14
+Estack
+Z24 w1613592057
+R2
+R3
+R4
+R5
+!i122 287
+Z25 dD:/temp/technoShieldII/stack
+Z26 8stack.vhd
+Z27 Fstack.vhd
+l0
+R8
+VU2J80G1Z62Iz:e>[YWB3=1
+!s100 7M>aD581O9mL<;XDk0nXL3
+R9
+32
+Z28 !s110 1613592269
+!i10b 1
+Z29 !s108 1613592269.000000
+Z30 !s90 -reportprogress|300|stack.vhd|
+Z31 !s107 stack.vhd|
+!i113 1
+o-O0
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 5 stack 0 22 U2J80G1Z62Iz:e>[YWB3=1
+!i122 287
+l32
+L25 39
+V8lDcPLj^i;WmLk]`8k[3[0
+!s100 `hMl3`TP?LF8[HRzae;l>0
+R9
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+o-O0
+R14
+Estack_tb
+Z32 w1613592261
+R2
+R3
+R4
+R5
+!i122 288
+R25
+Z33 8tb/stack_tb.vhd
+Z34 Ftb/stack_tb.vhd
+l0
+R21
+VAmZA4i>HB?EYiIlJ9X7^=2
+!s100 bTNNTS8FMHh<P]zGW5i1Z1
+R9
+32
+R28
+!i10b 1
+R29
+Z35 !s90 -reportprogress|300|tb/stack_tb.vhd|
+Z36 !s107 tb/stack_tb.vhd|
+!i113 1
+o-O0
+R14
+Astack_a0
+R2
+R3
+R4
+R5
+Z37 DEx4 work 8 stack_tb 0 22 AmZA4i>HB?EYiIlJ9X7^=2
+!i122 288
+l61
+L42 73
+V8PMZMP0Yell<^?:i[VTf32
+!s100 gL[7Q>P2^=f_gj2Ta=HQ=0
+R9
+32
+R28
+!i10b 1
+R29
+R35
+R36
+!i113 1
+o-O0
+R14
