@@ -9,8 +9,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-library sb_ice40_components_syn;
-use sb_ice40_components_syn.components.all;
+-- library sb_ice40_components_syn;
+-- use sb_ice40_components_syn.components.all;
 
 entity Technoshield_top is
     Port ( 
@@ -207,69 +207,69 @@ begin
 		
 
 		
-	OD0 : SB_IO_OD  
+	-- OD0 : SB_IO_OD  
 	
-		generic map ( 
-			NEG_TRIGGER =>	'0',
-			PIN_TYPE	=>	"011001"
-					) 
+		-- generic map ( 
+			-- NEG_TRIGGER =>	'0',
+			-- PIN_TYPE	=>	"011001"
+					-- ) 
 					
-		port map (   
-					DOUT1 => open,
-					DOUT0 =>  Led_rgb_s(0),  -- leave open
-					CLOCKENABLE => open,
-					LATCHINPUTVALUE => '0', 
-					INPUTCLK => open,
-					DIN0 => open,
-					DIN1 => open,
-					OUTPUTENABLE => '0', 
-					OUTPUTCLK => open,
-					PACKAGEPIN  => Led_RGB_o(0)
-				);
+		-- port map (   
+					-- DOUT1 => open,
+					-- DOUT0 =>  Led_rgb_s(0),  -- leave open
+					-- CLOCKENABLE => open,
+					-- LATCHINPUTVALUE => '0', 
+					-- INPUTCLK => open,
+					-- DIN0 => open,
+					-- DIN1 => open,
+					-- OUTPUTENABLE => '0', 
+					-- OUTPUTCLK => open,
+					-- PACKAGEPIN  => Led_RGB_o(0)
+				-- );
 				
 
 				
-	OD1 : SB_IO_OD  
+	-- OD1 : SB_IO_OD  
 	
-		generic map ( 
-			NEG_TRIGGER =>	'0',
-			PIN_TYPE	=>	"011001"
-					) 
+		-- generic map ( 
+			-- NEG_TRIGGER =>	'0',
+			-- PIN_TYPE	=>	"011001"
+					-- ) 
 					
-		port map (        
-					DOUT1 => open,
-					DOUT0 =>  Led_rgb_s(1),  -- leave open
-					CLOCKENABLE => open,
-					LATCHINPUTVALUE => '0', -- i do not want to latch the input.
-					INPUTCLK => open,
-					DIN0 => open,
-					DIN1 => open,
-					OUTPUTENABLE => '0', -- disable the output.
-					OUTPUTCLK => open,
-					PACKAGEPIN  => Led_RGB_o(1)
-				);	
+		-- port map (        
+					-- DOUT1 => open,
+					-- DOUT0 =>  Led_rgb_s(1),  -- leave open
+					-- CLOCKENABLE => open,
+					-- LATCHINPUTVALUE => '0', -- i do not want to latch the input.
+					-- INPUTCLK => open,
+					-- DIN0 => open,
+					-- DIN1 => open,
+					-- OUTPUTENABLE => '0', -- disable the output.
+					-- OUTPUTCLK => open,
+					-- PACKAGEPIN  => Led_RGB_o(1)
+				-- );	
 
 
 
-	OD2 : SB_IO_OD  
+	-- OD2 : SB_IO_OD  
 	
-		generic map ( 
-			NEG_TRIGGER =>	'0',
-			PIN_TYPE	=>	"011001"
-					) 
+		-- generic map ( 
+			-- NEG_TRIGGER =>	'0',
+			-- PIN_TYPE	=>	"011001"
+					-- ) 
 					
-		port map (     
-					DOUT1 => open,
-					DOUT0 =>  Led_rgb_s(2),  -- leave open
-					CLOCKENABLE => open,
-					LATCHINPUTVALUE => '0', -- i do not want to latch the input.
-					INPUTCLK => open,
-					DIN0 => open,
-					DIN1 => open,
-					OUTPUTENABLE => '0', -- disable the output.
-					OUTPUTCLK => open,
-					PACKAGEPIN  => Led_RGB_o(2)
-				);
+		-- port map (     
+					-- DOUT1 => open,
+					-- DOUT0 =>  Led_rgb_s(2),  -- leave open
+					-- CLOCKENABLE => open,
+					-- LATCHINPUTVALUE => '0', -- i do not want to latch the input.
+					-- INPUTCLK => open,
+					-- DIN0 => open,
+					-- DIN1 => open,
+					-- OUTPUTENABLE => '0', -- disable the output.
+					-- OUTPUTCLK => open,
+					-- PACKAGEPIN  => Led_RGB_o(2)
+				-- );
 	HFOSCinst0 : SB_HFOSC
 	
 		generic map(

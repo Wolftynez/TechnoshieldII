@@ -10,16 +10,18 @@
 quit -sim
 vlib work
 
-vlog sb_ice_ipenc_modelsim.v
+# Library for ice40 natives
+vlog lib/sb_ice_ipenc_modelsim.v
+vcom lib/vcomponent_vital.vhd
+vcom lib/sb_ice_syn_vital.vhd
+vcom lib/sb_ice_lc_vital.vhd
 
-vcom vcomponent_vital.vhd
-vcom sb_ice_syn_vital.vhd
-vcom sb_ice_lc_vital.vhd
-
+#sub component
 vcom Sub_module/Stack/stack.vhd
 vcom Sub_module/Reg_component/reg_component.vhd
 vcom Sub_module/i2c_Warper/I2C_Warper.vhd
 
+#Top&TestBench
 vcom  Technoshield_top.vhd
 vcom  tb/technoshield_top_tb.vhd
 
@@ -31,7 +33,7 @@ add wave -divider -height 10 Reg
 add wave -hexadecimal technoshield_top0/reg_component0/*
 add wave -divider -height 10 stack
 add wave -hexadecimal technoshield_top0/stack0/*
-add wave -divider -height 10 I2Cinst0
-add wave -hexadecimal technoshield_top0/I2Cinst0/*
+add wave -divider -height 10 Warper0
+add wave -hexadecimal technoshield_top0/Warper0/*
 
-run 125 us
+run 250 us

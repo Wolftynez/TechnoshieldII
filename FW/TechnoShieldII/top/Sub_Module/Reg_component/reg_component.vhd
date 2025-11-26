@@ -34,7 +34,7 @@ architecture behavioral of reg_component is
 	signal Led_Blink_s : std_logic := '0';
 	signal Led_io_o : std_logic := '0';
 	signal COUNTER : STD_LOGIC_VECTOR(23 downto 0):= x"000000";
-	signal PWM_counter : STD_LOGIC_VECTOR(
+	--signal PWM_counter : STD_LOGIC_VECTOR(
 	signal Write_EN : STD_LOGIC;
 	signal IO_register: Reg_8 := (others => (others => '0'));
 	signal High_depth_reg : Reg_32 := (others => (others => '0'));
@@ -47,10 +47,10 @@ architecture behavioral of reg_component is
 --PMOD_PWM
 ---------------------------------------------------------------------------	
 
-	process (clk)
-	begin
-		if rising_edge(clk) then
-			PWM_counter <+ PWM_counter + 1;
+ 	-- process (clk)
+	-- begin
+		-- if rising_edge(clk) then
+			-- PWM_counter <+ PWM_counter + 1;
 			
 			
 			
@@ -61,10 +61,10 @@ architecture behavioral of reg_component is
 			
 			
 			
-		end if;
+		-- end if;
 	
 	
-	end process;
+	-- end process; 
 
 
 
@@ -74,66 +74,66 @@ architecture behavioral of reg_component is
 ---------------------------------------------------------------------------
 --Selecteur PMOD In/out
 ---------------------------------------------------------------------------	
-	process (clk)
-	begin
-		if rising_edge(clk) then
-			if IO_register(3, 0) = '1' then
-				IO_register(2, 0) <= PMOD1_io(0);
-				PMOD1_io(0) <= 'Z';
-			else 
-				PMOD1_io(0) <= PMOD_pwm_s(0);
-			end if;
+	-- process (clk)
+	-- begin
+		-- if rising_edge(clk) then
+			-- if IO_register(3, 0) = '1' then
+				-- IO_register(2, 0) <= PMOD1_io(0);
+				-- PMOD1_io(0) <= 'Z';
+			-- else 
+				-- PMOD1_io(0) <= PMOD_pwm_s(0);
+			-- end if;
 			
-			if IO_register(3, 1) = '1' then
-				IO_register(2, 1) <= PMOD1_io(1);
-				PMOD1_io(1) <= 'Z';
-			else
-				PMOD1_io(1) <= PMOD_pwm_s(1);
-			end if;
+			-- if IO_register(3, 1) = '1' then
+				-- IO_register(2, 1) <= PMOD1_io(1);
+				-- PMOD1_io(1) <= 'Z';
+			-- else
+				-- PMOD1_io(1) <= PMOD_pwm_s(1);
+			-- end if;
 	
-			if IO_register(3, 2) = '1' then
-				IO_register(2, 2) <= PMOD1_io(2);
-				PMOD1_io(2) <= 'Z';
-			else
-				PMOD1_io(2) <= PMOD_pwm_s(2);
-			end if;
+			-- if IO_register(3, 2) = '1' then
+				-- IO_register(2, 2) <= PMOD1_io(2);
+				-- PMOD1_io(2) <= 'Z';
+			-- else
+				-- PMOD1_io(2) <= PMOD_pwm_s(2);
+			-- end if;
 			
-			if IO_register(3, 3) = '1' then
-				IO_register(2, 3) <= PMOD1_io(3);
-				PMOD1_io(3) <= 'Z';
-			else
-				PMOD1_io(3) < = PMOD_pwm_s(3);
-			end if;
+			-- if IO_register(3, 3) = '1' then
+				-- IO_register(2, 3) <= PMOD1_io(3);
+				-- PMOD1_io(3) <= 'Z';
+			-- else
+				-- PMOD1_io(3) < = PMOD_pwm_s(3);
+			-- end if;
 			
-			if IO_register(3, 4) = '1' then
-				IO_register(2, 4) <= PMOD2_io(0);
-				PMOD2_io(0) <= 'Z';
-			else
-				PMOD2_io(0) < = PMOD_pwm_s(4);
-			end if;
+			-- if IO_register(3, 4) = '1' then
+				-- IO_register(2, 4) <= PMOD2_io(0);
+				-- PMOD2_io(0) <= 'Z';
+			-- else
+				-- PMOD2_io(0) < = PMOD_pwm_s(4);
+			-- end if;
 			
-			if IO_register(3, 5) = '1' then
-				IO_register(2, 5) <= PMOD2_io(1);
-				PMOD2_io(1) <= 'Z';
-			else
-				PMOD2_io(1) < = PMOD_pwm_s(5);
-			end if;
+			-- if IO_register(3, 5) = '1' then
+				-- IO_register(2, 5) <= PMOD2_io(1);
+				-- PMOD2_io(1) <= 'Z';
+			-- else
+				-- PMOD2_io(1) < = PMOD_pwm_s(5);
+			-- end if;
 			
-			if IO_register(3, 6) = '1' then
-				IO_register(2, 6) <= PMOD2_io(2);
-				PMOD2_io(2) <= 'Z';
-			else
-				PMOD2_io(2) < = PMOD_pwm_s(6);
-			end if;
+			-- if IO_register(3, 6) = '1' then
+				-- IO_register(2, 6) <= PMOD2_io(2);
+				-- PMOD2_io(2) <= 'Z';
+			-- else
+				-- PMOD2_io(2) < = PMOD_pwm_s(6);
+			-- end if;
 
-			if IO_register(3, 7) = '1' then
-				IO_register(2, 7) <= PMOD2_io(3);
-				PMOD2_io(3) <= 'Z';
-			else
-				PMOD2_io(3) < = PMOD_pwm_s(7);
-			end if;
-		end if;
-	end process;	
+			-- if IO_register(3, 7) = '1' then
+				-- IO_register(2, 7) <= PMOD2_io(3);
+				-- PMOD2_io(3) <= 'Z';
+			-- else
+				-- PMOD2_io(3) < = PMOD_pwm_s(7);
+			-- end if;
+		-- end if;
+	-- end process;	
 
 ----------------------------------------------------------
 --Compteur blink

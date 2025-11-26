@@ -138,7 +138,7 @@ begin
 			wait for periode_mclk_v;
 			SDA_io <= '0';
 			wait for periode_mclk_v;
-			SDA_io <= '1';
+			SDA_io <= '0';
 			wait for periode_mclk_v;
 			SDA_io <= '0';
 			wait for periode_mclk_v;
